@@ -1,7 +1,6 @@
 """Estilo comum e utilitários de apresentação para os notebooks do trabalho."""
 
 from pathlib import Path
-from html import escape
 import hashlib
 import textwrap
 import numpy as np
@@ -9,7 +8,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 from matplotlib import font_manager
 from matplotlib.colors import LinearSegmentedColormap
-from IPython.display import display, HTML, Markdown
+from IPython.display import display, Markdown
 
 AZUL = "#0D28C2"
 PRETO = "#171B26"
@@ -98,64 +97,6 @@ def dirs(root, etapa):
     return tables, figures
 
 
-def capa(numero, titulo, descricao):
-    cabecalho = f"""
-    <div style="border-top:7px solid {AZUL}; padding:25px 28px;
-                background:{GELO}; margin:0 0 24px 0;">
-        <div style="color:{AZUL}; font-weight:700;
-                    letter-spacing:2px; font-size:12px;">
-            ISCTE · CIÊNCIA DE DADOS · MODELOS LONGITUDINAIS
-        </div>
-        <h1 style="margin:15px 0 10px; color:{PRETO};
-                   font-size:30px; line-height:1.25;">
-            {numero} / {escape(titulo)}
-        </h1>
-        <p style="font-size:15px; line-height:1.7; max-width:950px;
-                  margin:0; color:{CINZA};">
-            {escape(descricao)}
-        </p>
-    </div>
-    """
-    display(HTML(cabecalho))
-
-
-def indicadores(items):
-    cartoes = []
-    for rotulo, valor in items:
-        cartao = f"""
-        <div style="flex:1; min-width:135px; padding:15px;
-                    border:1px solid {GRELHA}; border-top:3px solid {AZUL};">
-            <div style="font-size:25px; color:{AZUL}; font-weight:bold;">
-                {escape(str(valor))}
-            </div>
-            <div style="font-size:12px; color:{CINZA}; margin-top:6px;">
-                {escape(rotulo)}
-            </div>
-        </div>
-        """
-        cartoes.append(cartao)
-    conteudo = "".join(cartoes)
-    display(
-        HTML(
-            '<div style="display:flex; gap:12px; flex-wrap:wrap; margin:15px 0 24px;">'
-            + conteudo
-            + "</div>"
-        )
-    )
-
-
-def nota(titulo, texto, tom="diagnostico"):
-    cor = {"diagnostico": AZUL, "alteracao": LARANJA, "limite": CINZA}.get(tom, AZUL)
-    conteudo = f"""
-    <div style="border-left:4px solid {cor}; background:{GELO};
-                padding:14px 18px; margin:16px 0 22px; line-height:1.7;">
-        <strong>{escape(titulo)}</strong><br>
-        {escape(texto)}
-    </div>
-    """
-    display(HTML(conteudo))
-
-
 def tabela(df, titulo, precisao=3, formatos=None):
     formatters = {
         col: (lambda v, p=precisao: pt(v, p))
@@ -177,8 +118,9 @@ def tabela(df, titulo, precisao=3, formatos=None):
         {
             "selector": "th",
             "props": [
-                ("background-color", AZUL),
-                ("color", "white"),
+                ("background-color", "white"),
+                ("color", PRETO),
+                ("border-bottom", f"2px solid {AZUL}"),
                 ("padding", "10px 12px"),
                 ("text-align", "left"),
             ],
@@ -192,7 +134,6 @@ def tabela(df, titulo, precisao=3, formatos=None):
                 ("white-space", "normal"),
             ],
         },
-        {"selector": "tbody tr:nth-child(even)", "props": [("background-color", GELO)]},
         {
             "selector": "",
             "props": [
@@ -312,7 +253,7 @@ def apresentar_plano(alteracoes):
     """Mostra um índice compacto e apresenta cada proposta num bloco legível."""
     tabela(
         alteracoes[["ID", "Prioridade", "Tema", "Estado"]],
-        "Tabela 3.6 · Alterações propostas para a modelação",
+        "Tabela 3.7 · Alterações propostas para a modelação",
     )
     for _, proposta in alteracoes.iterrows():
         display(

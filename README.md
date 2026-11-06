@@ -22,6 +22,7 @@ Trabalho/
 ├── scripts/
 │   ├── preparacao.py       # Leitura, qualidade e conferência dos dados
 │   ├── exploracao.py       # Estatísticas e medidas de dispersão
+│   ├── analise_resultados.py # Comparações por país/período e associações
 │   ├── diagnosticos.py     # Testes, extremos e propostas de alteração
 │   ├── graficos.py         # Uma função por figura
 │   ├── estilo_iscte.py     # Cores, rótulos e apresentação das tabelas
@@ -65,3 +66,9 @@ Para trabalho interativo, abrir os `.ipynb` no VS Code com a extensão Jupyter o
 O azul institucional Iscte é `#0D28C2` (RGB 13, 40, 194), conforme o [Manual de Marca, secção Cor](https://cies.iscte.pt/np4/?fileName=manual_de_marca_versao_digital_marco_202.pdf&newsId=3485). Branco e cinzentos compõem a base. Cores de contraste distinguem séries e sinais nas figuras, sem pretensão de certificar uma aplicação oficial da marca. A tipografia usa Montserrat quando instalada, com alternativa legível local.
 
 As fontes, versões e limitações dos dados constam de `dados/originais/fontes.csv`, `dicionario_variaveis.csv` e `metodologia_original.txt`. A documentação técnica dos testes está citada no notebook 03.
+
+## Interpretações dos resultados
+
+As análises encontram-se em células Markdown junto das tabelas e figuras, incluindo comparações entre países e períodos, decomposição exata da variância, duas janelas climáticas completas e correlações brutas e após retirar médias de país e data. O texto refere-se à versão dos dados em `dados/originais/`; se esses dados forem substituídos, as interpretações também devem ser revistas.
+
+Na apresentação, seguem-se as referências [no-slop-ui](https://github.com/LeoStehlik/no-slop-ui) e [no-ai-slop](https://github.com/petergyang/no-ai-slop): títulos e tabelas simples, gráficos identificados e interpretações sustentadas por valores calculados. As grelhas de indicadores e os cabeçalhos decorativos foram retirados.
