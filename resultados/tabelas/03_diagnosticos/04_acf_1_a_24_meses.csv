@@ -1,0 +1,721 @@
+﻿pais,serie,desfasamento,acf
+Burundi,original,1,0.016140453066893195
+Burundi,original,2,0.0746974456926795
+Burundi,original,3,0.055241469229912264
+Burundi,original,4,-0.0827106125237709
+Burundi,original,5,0.0679250285042987
+Burundi,original,6,0.06154438897628969
+Burundi,original,7,-0.032032668708498135
+Burundi,original,8,0.1000141650364259
+Burundi,original,9,-0.05319377365811523
+Burundi,original,10,-0.011638082772696052
+Burundi,original,11,0.08231929798049832
+Burundi,original,12,0.06755421246673354
+Burundi,original,13,-0.10031375637818438
+Burundi,original,14,0.09062160049515815
+Burundi,original,15,-0.11597639242564603
+Burundi,original,16,0.04152780994170102
+Burundi,original,17,-0.09433569788003458
+Burundi,original,18,-0.0036219481362077597
+Burundi,original,19,0.008106972933450092
+Burundi,original,20,-0.05072576641268528
+Burundi,original,21,0.00461106791032719
+Burundi,original,22,-0.004682436537772605
+Burundi,original,23,0.0757667947567329
+Burundi,original,24,0.19948332358035425
+Burundi,sem_calendario_tendencia,1,-0.0660290523451002
+Burundi,sem_calendario_tendencia,2,0.08879438515210393
+Burundi,sem_calendario_tendencia,3,0.1208468898832878
+Burundi,sem_calendario_tendencia,4,-0.07482602059356823
+Burundi,sem_calendario_tendencia,5,0.09711435058902285
+Burundi,sem_calendario_tendencia,6,0.08401910670888972
+Burundi,sem_calendario_tendencia,7,-0.01789257739953766
+Burundi,sem_calendario_tendencia,8,0.1432756831430121
+Burundi,sem_calendario_tendencia,9,-0.00424962661824841
+Burundi,sem_calendario_tendencia,10,-0.017204638707008155
+Burundi,sem_calendario_tendencia,11,0.009130193957543444
+Burundi,sem_calendario_tendencia,12,-0.0905119273669319
+Burundi,sem_calendario_tendencia,13,-0.19222473838796408
+Burundi,sem_calendario_tendencia,14,0.1068549489953033
+Burundi,sem_calendario_tendencia,15,-0.07629385571156629
+Burundi,sem_calendario_tendencia,16,0.07411249283277596
+Burundi,sem_calendario_tendencia,17,-0.08908623997622411
+Burundi,sem_calendario_tendencia,18,0.006230553125709496
+Burundi,sem_calendario_tendencia,19,0.03141957640030714
+Burundi,sem_calendario_tendencia,20,-0.030333148471113507
+Burundi,sem_calendario_tendencia,21,0.06724992994455457
+Burundi,sem_calendario_tendencia,22,-0.001062225313193713
+Burundi,sem_calendario_tendencia,23,0.011178224882141331
+Burundi,sem_calendario_tendencia,24,0.06654585497293523
+Benim,original,1,-0.04315527362743876
+Benim,original,2,-0.13893125607718382
+Benim,original,3,-0.21629934019134953
+Benim,original,4,0.01498411547571032
+Benim,original,5,0.0017144868837254356
+Benim,original,6,0.10087488039411445
+Benim,original,7,0.011552164221573005
+Benim,original,8,-0.1326393239057734
+Benim,original,9,-0.09450974316795342
+Benim,original,10,-0.09284693597494159
+Benim,original,11,-0.006119744523545099
+Benim,original,12,0.2099373251367975
+Benim,original,13,0.07415984282761841
+Benim,original,14,0.03820672286947029
+Benim,original,15,-0.21745586899136307
+Benim,original,16,-0.02900594261764432
+Benim,original,17,0.006760898004551805
+Benim,original,18,0.23780575022539568
+Benim,original,19,0.016421271638128652
+Benim,original,20,-0.07955635195153292
+Benim,original,21,-0.2263742016751278
+Benim,original,22,-0.08065001539117367
+Benim,original,23,0.1125792359909461
+Benim,original,24,0.16363488516365005
+Benim,sem_calendario_tendencia,1,-0.10709325353826482
+Benim,sem_calendario_tendencia,2,-0.1413222259676935
+Benim,sem_calendario_tendencia,3,-0.07319848156851949
+Benim,sem_calendario_tendencia,4,0.11197581094374232
+Benim,sem_calendario_tendencia,5,-0.02218515197572085
+Benim,sem_calendario_tendencia,6,-0.08502958518256538
+Benim,sem_calendario_tendencia,7,-0.0179209889590278
+Benim,sem_calendario_tendencia,8,-0.09077864867721162
+Benim,sem_calendario_tendencia,9,0.09044989503909527
+Benim,sem_calendario_tendencia,10,-0.07748886649061665
+Benim,sem_calendario_tendencia,11,-0.054360442220089865
+Benim,sem_calendario_tendencia,12,-0.06423653562523682
+Benim,sem_calendario_tendencia,13,0.052533622066455794
+Benim,sem_calendario_tendencia,14,0.0974328924952804
+Benim,sem_calendario_tendencia,15,-0.06932456871350055
+Benim,sem_calendario_tendencia,16,0.04882851248918944
+Benim,sem_calendario_tendencia,17,-0.005086827575669511
+Benim,sem_calendario_tendencia,18,0.08476925256183959
+Benim,sem_calendario_tendencia,19,-0.018571092131976018
+Benim,sem_calendario_tendencia,20,-0.0225906166914963
+Benim,sem_calendario_tendencia,21,-0.08319274542466713
+Benim,sem_calendario_tendencia,22,-0.05626428446180924
+Benim,sem_calendario_tendencia,23,0.10574896970252956
+Benim,sem_calendario_tendencia,24,-0.12612544253334673
+Burkina Faso,original,1,0.10565430686594188
+Burkina Faso,original,2,0.0360241126156931
+Burkina Faso,original,3,-0.07466717123280944
+Burkina Faso,original,4,-0.08015340229799191
+Burkina Faso,original,5,-0.07707541955380369
+Burkina Faso,original,6,-0.10088360835898627
+Burkina Faso,original,7,-0.04881507919062712
+Burkina Faso,original,8,-0.24840526261465132
+Burkina Faso,original,9,-0.11791715873516584
+Burkina Faso,original,10,0.0650820438076294
+Burkina Faso,original,11,0.212800988335673
+Burkina Faso,original,12,0.31864542746087154
+Burkina Faso,original,13,0.15932890756136694
+Burkina Faso,original,14,-0.04736403148357894
+Burkina Faso,original,15,-0.06699478824282916
+Burkina Faso,original,16,-0.09503119850553746
+Burkina Faso,original,17,-0.17786425553308377
+Burkina Faso,original,18,-0.1157850987196155
+Burkina Faso,original,19,-0.22686991449746133
+Burkina Faso,original,20,-0.15259103832916954
+Burkina Faso,original,21,-0.09769683030628551
+Burkina Faso,original,22,0.04636460214721818
+Burkina Faso,original,23,0.17025701723632292
+Burkina Faso,original,24,0.24387919681756656
+Burkina Faso,sem_calendario_tendencia,1,-0.09886839696164008
+Burkina Faso,sem_calendario_tendencia,2,-0.006770413827019178
+Burkina Faso,sem_calendario_tendencia,3,-0.041244847279749954
+Burkina Faso,sem_calendario_tendencia,4,0.027113333293126644
+Burkina Faso,sem_calendario_tendencia,5,0.07873807266890849
+Burkina Faso,sem_calendario_tendencia,6,0.08373270552298426
+Burkina Faso,sem_calendario_tendencia,7,0.12640214213162188
+Burkina Faso,sem_calendario_tendencia,8,-0.20275904796292676
+Burkina Faso,sem_calendario_tendencia,9,-0.11048325122976936
+Burkina Faso,sem_calendario_tendencia,10,0.026313434325234406
+Burkina Faso,sem_calendario_tendencia,11,0.04616033205756086
+Burkina Faso,sem_calendario_tendencia,12,0.06043790947736675
+Burkina Faso,sem_calendario_tendencia,13,-0.02798980696109972
+Burkina Faso,sem_calendario_tendencia,14,-0.13488822276309748
+Burkina Faso,sem_calendario_tendencia,15,-0.045000983219167755
+Burkina Faso,sem_calendario_tendencia,16,0.0014137761633329544
+Burkina Faso,sem_calendario_tendencia,17,-0.05878024083496837
+Burkina Faso,sem_calendario_tendencia,18,0.05781268280883053
+Burkina Faso,sem_calendario_tendencia,19,-0.11101898572893823
+Burkina Faso,sem_calendario_tendencia,20,-0.058867707740522635
+Burkina Faso,sem_calendario_tendencia,21,-0.062252744634769104
+Burkina Faso,sem_calendario_tendencia,22,0.022109511802600283
+Burkina Faso,sem_calendario_tendencia,23,-0.014928863505463897
+Burkina Faso,sem_calendario_tendencia,24,-0.04334210809628329
+Brasil,original,1,0.638354765421612
+Brasil,original,2,0.32045592273434687
+Brasil,original,3,0.14165038419248174
+Brasil,original,4,0.039090313041451774
+Brasil,original,5,-0.03118927352354237
+Brasil,original,6,-0.05599626255100179
+Brasil,original,7,-0.10430173044045102
+Brasil,original,8,-0.024782241949028453
+Brasil,original,9,0.0938843988126905
+Brasil,original,10,0.09816607357299055
+Brasil,original,11,0.07909456929186177
+Brasil,original,12,0.09346148918255791
+Brasil,original,13,0.04127527843448266
+Brasil,original,14,0.01954158707783769
+Brasil,original,15,-0.0356953456080025
+Brasil,original,16,-0.0927932793216191
+Brasil,original,17,-0.12337230734323477
+Brasil,original,18,-0.08624932381433072
+Brasil,original,19,-0.09269730360825847
+Brasil,original,20,-0.06487484242547789
+Brasil,original,21,-0.039852612061868894
+Brasil,original,22,0.0017709620507873804
+Brasil,original,23,-0.002964513013599305
+Brasil,original,24,-0.0023720333057289603
+Brasil,sem_calendario_tendencia,1,0.636148044810613
+Brasil,sem_calendario_tendencia,2,0.31843778668854217
+Brasil,sem_calendario_tendencia,3,0.15898168968642992
+Brasil,sem_calendario_tendencia,4,0.09431503544365968
+Brasil,sem_calendario_tendencia,5,0.04721268101773844
+Brasil,sem_calendario_tendencia,6,0.043253258620988555
+Brasil,sem_calendario_tendencia,7,-0.01479602796552935
+Brasil,sem_calendario_tendencia,8,0.05144623730883517
+Brasil,sem_calendario_tendencia,9,0.13077461672225943
+Brasil,sem_calendario_tendencia,10,0.07587291339030526
+Brasil,sem_calendario_tendencia,11,-0.01297577345159043
+Brasil,sem_calendario_tendencia,12,-0.05842140629346239
+Brasil,sem_calendario_tendencia,13,-0.06630641133588243
+Brasil,sem_calendario_tendencia,14,-0.03689071597473845
+Brasil,sem_calendario_tendencia,15,-0.04296887735060195
+Brasil,sem_calendario_tendencia,16,-0.04924641256604949
+Brasil,sem_calendario_tendencia,17,-0.0544286376243034
+Brasil,sem_calendario_tendencia,18,0.007546756943193527
+Brasil,sem_calendario_tendencia,19,-0.0025950115958111256
+Brasil,sem_calendario_tendencia,20,-0.0007432208600820391
+Brasil,sem_calendario_tendencia,21,-0.027128072895780803
+Brasil,sem_calendario_tendencia,22,-0.034152643456748406
+Brasil,sem_calendario_tendencia,23,-0.10325872144945104
+Brasil,sem_calendario_tendencia,24,-0.1620311765823411
+Espanha,original,1,0.27798626269333904
+Espanha,original,2,0.17262172430705894
+Espanha,original,3,0.11663727553808335
+Espanha,original,4,0.2492309589349295
+Espanha,original,5,0.17734815870447584
+Espanha,original,6,0.2683100035038466
+Espanha,original,7,0.15396278611161862
+Espanha,original,8,0.25052019652504554
+Espanha,original,9,0.10490477853218727
+Espanha,original,10,0.0596932101824978
+Espanha,original,11,0.05797565323777353
+Espanha,original,12,0.30320247840638787
+Espanha,original,13,-0.03634481738362297
+Espanha,original,14,0.0034963559953637147
+Espanha,original,15,0.027295569824723837
+Espanha,original,16,0.060202176489596575
+Espanha,original,17,-0.04101331147726435
+Espanha,original,18,0.03481654638698532
+Espanha,original,19,-0.06404371124749259
+Espanha,original,20,0.026169854169191733
+Espanha,original,21,-0.05367393049626581
+Espanha,original,22,-0.06002900491224924
+Espanha,original,23,-0.07959980398482856
+Espanha,original,24,0.2761945324111568
+Espanha,sem_calendario_tendencia,1,0.3502412031546285
+Espanha,sem_calendario_tendencia,2,0.2047537603719702
+Espanha,sem_calendario_tendencia,3,0.13203681117086474
+Espanha,sem_calendario_tendencia,4,0.2885973393970045
+Espanha,sem_calendario_tendencia,5,0.20381314891589936
+Espanha,sem_calendario_tendencia,6,0.27564795541518655
+Espanha,sem_calendario_tendencia,7,0.1870503624840049
+Espanha,sem_calendario_tendencia,8,0.29954524383300046
+Espanha,sem_calendario_tendencia,9,0.11506341329910034
+Espanha,sem_calendario_tendencia,10,0.07779883665710151
+Espanha,sem_calendario_tendencia,11,0.11363968825735224
+Espanha,sem_calendario_tendencia,12,0.21583418320257639
+Espanha,sem_calendario_tendencia,13,-0.0082238820814929
+Espanha,sem_calendario_tendencia,14,0.01608143821013942
+Espanha,sem_calendario_tendencia,15,0.03829151982007723
+Espanha,sem_calendario_tendencia,16,0.06915537918902895
+Espanha,sem_calendario_tendencia,17,-0.045712887808621094
+Espanha,sem_calendario_tendencia,18,0.009460859899774986
+Espanha,sem_calendario_tendencia,19,-0.05602543498198874
+Espanha,sem_calendario_tendencia,20,0.04709148757115204
+Espanha,sem_calendario_tendencia,21,-0.06429973822661973
+Espanha,sem_calendario_tendencia,22,-0.06634349030535824
+Espanha,sem_calendario_tendencia,23,-0.0402820130729203
+Espanha,sem_calendario_tendencia,24,0.18466508858585912
+Honduras,original,1,0.36857208935085595
+Honduras,original,2,0.005544450245688186
+Honduras,original,3,0.11211288225126391
+Honduras,original,4,0.23264169629881476
+Honduras,original,5,0.09771830045715695
+Honduras,original,6,0.08025640936866742
+Honduras,original,7,0.18287005007386659
+Honduras,original,8,0.23223296868450674
+Honduras,original,9,0.0808186849802338
+Honduras,original,10,-0.07692512137685438
+Honduras,original,11,-0.002412893730068659
+Honduras,original,12,0.08552539954683068
+Honduras,original,13,-0.024338925626214803
+Honduras,original,14,-0.2027187088511644
+Honduras,original,15,-0.12783552311931407
+Honduras,original,16,0.0013033581785085388
+Honduras,original,17,-0.02070261235497795
+Honduras,original,18,-0.11140553959170453
+Honduras,original,19,-0.0746457278723858
+Honduras,original,20,-0.029280865713247468
+Honduras,original,21,-0.14346612445910245
+Honduras,original,22,-0.18180077052666582
+Honduras,original,23,0.008420950121251687
+Honduras,original,24,0.1556247633685162
+Honduras,sem_calendario_tendencia,1,0.41727330922590494
+Honduras,sem_calendario_tendencia,2,0.15945469135479826
+Honduras,sem_calendario_tendencia,3,0.17890445747442477
+Honduras,sem_calendario_tendencia,4,0.20385234814193864
+Honduras,sem_calendario_tendencia,5,0.10068089836611663
+Honduras,sem_calendario_tendencia,6,0.1514336454502869
+Honduras,sem_calendario_tendencia,7,0.19372404799858267
+Honduras,sem_calendario_tendencia,8,0.19801508702019543
+Honduras,sem_calendario_tendencia,9,0.14620882228705476
+Honduras,sem_calendario_tendencia,10,0.06328623699760307
+Honduras,sem_calendario_tendencia,11,-0.03513529312121552
+Honduras,sem_calendario_tendencia,12,-0.12498392699736469
+Honduras,sem_calendario_tendencia,13,-0.06270831014778712
+Honduras,sem_calendario_tendencia,14,-0.08768054891114013
+Honduras,sem_calendario_tendencia,15,-0.11658812784685069
+Honduras,sem_calendario_tendencia,16,-0.08545963033424973
+Honduras,sem_calendario_tendencia,17,-0.04324752228170795
+Honduras,sem_calendario_tendencia,18,-0.07163326064929151
+Honduras,sem_calendario_tendencia,19,-0.1238876929726719
+Honduras,sem_calendario_tendencia,20,-0.1332650295358527
+Honduras,sem_calendario_tendencia,21,-0.1310199660519752
+Honduras,sem_calendario_tendencia,22,-0.05213104341292088
+Honduras,sem_calendario_tendencia,23,-0.0057027576803633856
+Honduras,sem_calendario_tendencia,24,-0.03404206258453021
+Japão,original,1,0.021012417599667748
+Japão,original,2,-0.27505964406927474
+Japão,original,3,-0.033177664823026594
+Japão,original,4,0.1837979858572736
+Japão,original,5,0.10439917298852237
+Japão,original,6,-0.29913376295209254
+Japão,original,7,0.05220187229931585
+Japão,original,8,0.2604670460432522
+Japão,original,9,0.06808293895852521
+Japão,original,10,-0.18789120516169905
+Japão,original,11,-0.0816939655949847
+Japão,original,12,0.3643543254108114
+Japão,original,13,0.0017898631867195726
+Japão,original,14,-0.15890639269670886
+Japão,original,15,0.03325756446261304
+Japão,original,16,0.11612570831948531
+Japão,original,17,0.048027607095302224
+Japão,original,18,-0.16591172495347042
+Japão,original,19,0.05254140914701607
+Japão,original,20,0.12536079560731953
+Japão,original,21,0.0635344949862124
+Japão,original,22,-0.08066789614576252
+Japão,original,23,-0.0016676858052090155
+Japão,original,24,0.2996482851503618
+Japão,sem_calendario_tendencia,1,0.06479680245876022
+Japão,sem_calendario_tendencia,2,-0.12471570437151724
+Japão,sem_calendario_tendencia,3,-0.08592334616985996
+Japão,sem_calendario_tendencia,4,0.008886019583924177
+Japão,sem_calendario_tendencia,5,0.07916194258538027
+Japão,sem_calendario_tendencia,6,-0.20015684945976486
+Japão,sem_calendario_tendencia,7,-0.0016710145654093302
+Japão,sem_calendario_tendencia,8,0.13569345029914884
+Japão,sem_calendario_tendencia,9,0.07280168268083427
+Japão,sem_calendario_tendencia,10,0.012413507754152949
+Japão,sem_calendario_tendencia,11,-0.09573490683650764
+Japão,sem_calendario_tendencia,12,-0.014162721726414742
+Japão,sem_calendario_tendencia,13,0.0368250171217031
+Japão,sem_calendario_tendencia,14,0.0641576999835611
+Japão,sem_calendario_tendencia,15,0.024561186726827545
+Japão,sem_calendario_tendencia,16,-0.0866341975844277
+Japão,sem_calendario_tendencia,17,-0.004314668829222021
+Japão,sem_calendario_tendencia,18,0.006201931482272133
+Japão,sem_calendario_tendencia,19,-0.0014039925790640703
+Japão,sem_calendario_tendencia,20,-0.08815627762502445
+Japão,sem_calendario_tendencia,21,0.0783976046535746
+Japão,sem_calendario_tendencia,22,0.1921102636866022
+Japão,sem_calendario_tendencia,23,0.0369249879457421
+Japão,sem_calendario_tendencia,24,-0.10647425079646661
+México,original,1,0.19854520476655557
+México,original,2,-0.1710293823742327
+México,original,3,-0.11222326860406133
+México,original,4,-0.0247340328888419
+México,original,5,-0.058155949508918
+México,original,6,-0.08211708600882917
+México,original,7,-0.014466178011854968
+México,original,8,0.09871078596740862
+México,original,9,0.06796195766923462
+México,original,10,-0.02791611670901101
+México,original,11,0.016525945794626722
+México,original,12,0.09676040350994647
+México,original,13,-0.08242671930710804
+México,original,14,-0.013895161022136325
+México,original,15,0.10112990217746551
+México,original,16,0.09007219379399278
+México,original,17,-0.03565756425386245
+México,original,18,-0.10274327405852104
+México,original,19,-0.08665912281305388
+México,original,20,-0.04252657777159519
+México,original,21,-0.06000581637601708
+México,original,22,-0.00133829019880118
+México,original,23,0.09829188857904043
+México,original,24,0.13898692882893654
+México,sem_calendario_tendencia,1,0.2330921016338316
+México,sem_calendario_tendencia,2,-0.12452416030477598
+México,sem_calendario_tendencia,3,-0.14342245647586083
+México,sem_calendario_tendencia,4,-0.11847016168073654
+México,sem_calendario_tendencia,5,0.00017559965124727757
+México,sem_calendario_tendencia,6,0.005957945332070489
+México,sem_calendario_tendencia,7,0.047005746710257514
+México,sem_calendario_tendencia,8,0.028442202918893315
+México,sem_calendario_tendencia,9,0.07187263117935236
+México,sem_calendario_tendencia,10,0.046011324709728275
+México,sem_calendario_tendencia,11,0.014396000970972286
+México,sem_calendario_tendencia,12,-0.08565838057877212
+México,sem_calendario_tendencia,13,-0.10308341488232549
+México,sem_calendario_tendencia,14,0.056930750546476755
+México,sem_calendario_tendencia,15,0.11396540617976195
+México,sem_calendario_tendencia,16,0.017415637922128017
+México,sem_calendario_tendencia,17,0.03751910119973872
+México,sem_calendario_tendencia,18,-0.012206251877097984
+México,sem_calendario_tendencia,19,-0.0422702576606392
+México,sem_calendario_tendencia,20,-0.13855434386703086
+México,sem_calendario_tendencia,21,-0.0700963904955468
+México,sem_calendario_tendencia,22,0.06487615083060998
+México,sem_calendario_tendencia,23,0.09788293419980751
+México,sem_calendario_tendencia,24,-0.03654265991135564
+Mali,original,1,0.3719588507123825
+Mali,original,2,0.1012835436788775
+Mali,original,3,-0.03433212409307388
+Mali,original,4,-0.15804878627005056
+Mali,original,5,-0.25347080925724647
+Mali,original,6,-0.35098935448925933
+Mali,original,7,-0.26473545082295347
+Mali,original,8,-0.13262608437771756
+Mali,original,9,-0.042263594501113264
+Mali,original,10,0.1501603573614322
+Mali,original,11,0.31848345436629383
+Mali,original,12,0.3807220174173144
+Mali,original,13,0.3007322676473139
+Mali,original,14,0.048772409871842934
+Mali,original,15,-0.0053917516329945805
+Mali,original,16,-0.1450366604286615
+Mali,original,17,-0.34541844336733557
+Mali,original,18,-0.3834227952293533
+Mali,original,19,-0.3031946041115036
+Mali,original,20,-0.16692126444734826
+Mali,original,21,-0.08969193495749042
+Mali,original,22,0.1346716848415076
+Mali,original,23,0.39094177411072695
+Mali,original,24,0.389412961695419
+Mali,sem_calendario_tendencia,1,0.10021216706770891
+Mali,sem_calendario_tendencia,2,-0.07464315476357107
+Mali,sem_calendario_tendencia,3,-0.007283956063434643
+Mali,sem_calendario_tendencia,4,0.02650510198291982
+Mali,sem_calendario_tendencia,5,0.06845962425511258
+Mali,sem_calendario_tendencia,6,-0.009068242297393201
+Mali,sem_calendario_tendencia,7,0.043502339139841306
+Mali,sem_calendario_tendencia,8,0.050552119287722096
+Mali,sem_calendario_tendencia,9,-0.05316461947056529
+Mali,sem_calendario_tendencia,10,-0.010276343163475287
+Mali,sem_calendario_tendencia,11,0.0042048171571018225
+Mali,sem_calendario_tendencia,12,-0.024237850233288408
+Mali,sem_calendario_tendencia,13,-0.011971339670536821
+Mali,sem_calendario_tendencia,14,-0.1503426361752934
+Mali,sem_calendario_tendencia,15,0.03988332796634481
+Mali,sem_calendario_tendencia,16,0.04844409914825318
+Mali,sem_calendario_tendencia,17,-0.08479556485063802
+Mali,sem_calendario_tendencia,18,-0.06756264320247653
+Mali,sem_calendario_tendencia,19,-0.034324247560947714
+Mali,sem_calendario_tendencia,20,-0.00860871886521182
+Mali,sem_calendario_tendencia,21,-0.1173739740388743
+Mali,sem_calendario_tendencia,22,-0.020942432983842497
+Mali,sem_calendario_tendencia,23,0.13568910976862203
+Mali,sem_calendario_tendencia,24,0.0039923632100803885
+Níger,original,1,0.2649941360101321
+Níger,original,2,0.06837119693226947
+Níger,original,3,-0.11787224279973735
+Níger,original,4,-0.1872547595287614
+Níger,original,5,-0.12755862205299667
+Níger,original,6,-0.1705021510142837
+Níger,original,7,-0.032962342912902426
+Níger,original,8,-0.17429682733958177
+Níger,original,9,-0.06811999062425161
+Níger,original,10,0.11452686968037232
+Níger,original,11,0.24991234623149855
+Níger,original,12,0.41589743601668266
+Níger,original,13,0.15960367314090876
+Níger,original,14,-0.01701616344001463
+Níger,original,15,-0.17212174379999548
+Níger,original,16,-0.17396641273234023
+Níger,original,17,-0.11044939157400636
+Níger,original,18,-0.2175792071384091
+Níger,original,19,-0.06610564075580838
+Níger,original,20,-0.22029397981252036
+Níger,original,21,-0.171122500125607
+Níger,original,22,0.00976128242942772
+Níger,original,23,0.20328198923963817
+Níger,original,24,0.40308040417024976
+Níger,sem_calendario_tendencia,1,0.10793806110479238
+Níger,sem_calendario_tendencia,2,-0.01480326483649587
+Níger,sem_calendario_tendencia,3,-0.06155464976827882
+Níger,sem_calendario_tendencia,4,-0.038266574521721594
+Níger,sem_calendario_tendencia,5,-0.009355994274232766
+Níger,sem_calendario_tendencia,6,-0.025843281243356175
+Níger,sem_calendario_tendencia,7,0.12522816043301058
+Níger,sem_calendario_tendencia,8,-0.023078687258332974
+Níger,sem_calendario_tendencia,9,0.012160902641998355
+Níger,sem_calendario_tendencia,10,0.050302561550743585
+Níger,sem_calendario_tendencia,11,0.08031983825522512
+Níger,sem_calendario_tendencia,12,0.11168291073717762
+Níger,sem_calendario_tendencia,13,-0.07667183660183623
+Níger,sem_calendario_tendencia,14,-0.1484664236395125
+Níger,sem_calendario_tendencia,15,-0.12514838375951254
+Níger,sem_calendario_tendencia,16,0.02341070002554918
+Níger,sem_calendario_tendencia,17,0.05242847295390651
+Níger,sem_calendario_tendencia,18,-0.08715822458610652
+Níger,sem_calendario_tendencia,19,0.06424157239638059
+Níger,sem_calendario_tendencia,20,-0.12043669602373237
+Níger,sem_calendario_tendencia,21,-0.15046805278073583
+Níger,sem_calendario_tendencia,22,-0.10748009164539846
+Níger,sem_calendario_tendencia,23,0.016844256639266444
+Níger,sem_calendario_tendencia,24,0.10497032495784954
+Nigéria,original,1,0.32740041992352753
+Nigéria,original,2,0.04546545612338216
+Nigéria,original,3,-0.07308208937697394
+Nigéria,original,4,-0.02410882824938106
+Nigéria,original,5,0.07366317921224888
+Nigéria,original,6,-0.04589211664528487
+Nigéria,original,7,-0.09787405968355026
+Nigéria,original,8,-0.12148472635114942
+Nigéria,original,9,-0.029494535188249453
+Nigéria,original,10,0.1024062749073321
+Nigéria,original,11,0.16076708531368544
+Nigéria,original,12,0.20571617946329002
+Nigéria,original,13,0.18250485699205513
+Nigéria,original,14,0.15965859703720617
+Nigéria,original,15,0.13295959693173748
+Nigéria,original,16,-0.050368849077076325
+Nigéria,original,17,-0.14343743838709166
+Nigéria,original,18,-0.2508021238053052
+Nigéria,original,19,-0.046873606299443815
+Nigéria,original,20,-0.05139334073878133
+Nigéria,original,21,0.023175454615990902
+Nigéria,original,22,0.01889964810878058
+Nigéria,original,23,0.020834616760687142
+Nigéria,original,24,0.027565113129785195
+Nigéria,sem_calendario_tendencia,1,0.27080715144758777
+Nigéria,sem_calendario_tendencia,2,0.001956722120881914
+Nigéria,sem_calendario_tendencia,3,-0.09030360161458546
+Nigéria,sem_calendario_tendencia,4,-0.006080612513043254
+Nigéria,sem_calendario_tendencia,5,0.12825462155429754
+Nigéria,sem_calendario_tendencia,6,0.010180486550776647
+Nigéria,sem_calendario_tendencia,7,-0.06689174598074112
+Nigéria,sem_calendario_tendencia,8,-0.11217845014471077
+Nigéria,sem_calendario_tendencia,9,-0.03575995030279407
+Nigéria,sem_calendario_tendencia,10,0.0728054863022265
+Nigéria,sem_calendario_tendencia,11,0.08845778143385277
+Nigéria,sem_calendario_tendencia,12,0.10224293038658305
+Nigéria,sem_calendario_tendencia,13,0.10619176654204457
+Nigéria,sem_calendario_tendencia,14,0.12182669648896129
+Nigéria,sem_calendario_tendencia,15,0.11916457029680579
+Nigéria,sem_calendario_tendencia,16,-0.05591370961712109
+Nigéria,sem_calendario_tendencia,17,-0.13725090846861515
+Nigéria,sem_calendario_tendencia,18,-0.2437677346929956
+Nigéria,sem_calendario_tendencia,19,-0.01783174285572122
+Nigéria,sem_calendario_tendencia,20,-0.028079480669368526
+Nigéria,sem_calendario_tendencia,21,0.04254300923864285
+Nigéria,sem_calendario_tendencia,22,-0.011223843042250022
+Nigéria,sem_calendario_tendencia,23,-0.07242374675132117
+Nigéria,sem_calendario_tendencia,24,-0.09900638560870977
+Portugal,original,1,0.2288345061198802
+Portugal,original,2,0.19859833638787308
+Portugal,original,3,0.1715791465041156
+Portugal,original,4,0.06377804683762815
+Portugal,original,5,0.09978160614270346
+Portugal,original,6,0.08037649130818715
+Portugal,original,7,0.10870275339050668
+Portugal,original,8,0.005272721685720234
+Portugal,original,9,0.1097201969614755
+Portugal,original,10,0.07942832515777822
+Portugal,original,11,0.03626200917786545
+Portugal,original,12,0.1225972273815004
+Portugal,original,13,-0.11456475592643675
+Portugal,original,14,-0.10351251718686899
+Portugal,original,15,-0.03355904042544648
+Portugal,original,16,-0.11665823414314735
+Portugal,original,17,-0.005537556567019378
+Portugal,original,18,-0.05066472155255243
+Portugal,original,19,-0.029947388995327
+Portugal,original,20,-0.040535493503876995
+Portugal,original,21,0.06484014661704199
+Portugal,original,22,0.0007496527041893722
+Portugal,original,23,0.002767665201179875
+Portugal,original,24,0.14543350466547716
+Portugal,sem_calendario_tendencia,1,0.3020318536433933
+Portugal,sem_calendario_tendencia,2,0.23779452312217347
+Portugal,sem_calendario_tendencia,3,0.15347959391152574
+Portugal,sem_calendario_tendencia,4,0.14429917564171268
+Portugal,sem_calendario_tendencia,5,0.12212683714823144
+Portugal,sem_calendario_tendencia,6,0.10186780264897999
+Portugal,sem_calendario_tendencia,7,0.13372495380189636
+Portugal,sem_calendario_tendencia,8,0.0720659935826863
+Portugal,sem_calendario_tendencia,9,0.06994637011644803
+Portugal,sem_calendario_tendencia,10,0.09924643354687676
+Portugal,sem_calendario_tendencia,11,0.07097851003354466
+Portugal,sem_calendario_tendencia,12,-0.04611402436855855
+Portugal,sem_calendario_tendencia,13,-0.10351691577327546
+Portugal,sem_calendario_tendencia,14,-0.12713287444247703
+Portugal,sem_calendario_tendencia,15,-0.10114602608206248
+Portugal,sem_calendario_tendencia,16,-0.07379398486759751
+Portugal,sem_calendario_tendencia,17,-0.019169117034984345
+Portugal,sem_calendario_tendencia,18,-0.06365417984315025
+Portugal,sem_calendario_tendencia,19,-0.036033824516807325
+Portugal,sem_calendario_tendencia,20,0.005476958804524545
+Portugal,sem_calendario_tendencia,21,0.0058293486164461145
+Portugal,sem_calendario_tendencia,22,0.0008253142834410722
+Portugal,sem_calendario_tendencia,23,0.02966619004107948
+Portugal,sem_calendario_tendencia,24,-0.012249705672042095
+Senegal,original,1,0.3205017201587414
+Senegal,original,2,0.08380788395735586
+Senegal,original,3,-0.22400217629776714
+Senegal,original,4,-0.21126300413648005
+Senegal,original,5,-0.22293866814136712
+Senegal,original,6,-0.128166041040572
+Senegal,original,7,-0.23804884747458388
+Senegal,original,8,-0.21392498636704155
+Senegal,original,9,-0.18831192031475213
+Senegal,original,10,0.11592971123498111
+Senegal,original,11,0.3781577058514485
+Senegal,original,12,0.5162692752457883
+Senegal,original,13,0.32962697993827733
+Senegal,original,14,0.09141190903412458
+Senegal,original,15,-0.20686090748793534
+Senegal,original,16,-0.22997416408758523
+Senegal,original,17,-0.22707926624772568
+Senegal,original,18,-0.16839393024757432
+Senegal,original,19,-0.24332761830510521
+Senegal,original,20,-0.2339610959228234
+Senegal,original,21,-0.19222041787627417
+Senegal,original,22,0.04492779828184702
+Senegal,original,23,0.3446449461248195
+Senegal,original,24,0.5755122863228294
+Senegal,sem_calendario_tendencia,1,-0.009582150581412695
+Senegal,sem_calendario_tendencia,2,-0.021637912974873837
+Senegal,sem_calendario_tendencia,3,-0.06067680379557911
+Senegal,sem_calendario_tendencia,4,0.033952850565739386
+Senegal,sem_calendario_tendencia,5,-0.03126636313239195
+Senegal,sem_calendario_tendencia,6,0.008682181349322094
+Senegal,sem_calendario_tendencia,7,-0.07564310874947967
+Senegal,sem_calendario_tendencia,8,0.008350939182277611
+Senegal,sem_calendario_tendencia,9,0.0022026673110415035
+Senegal,sem_calendario_tendencia,10,0.025366170121501955
+Senegal,sem_calendario_tendencia,11,0.10714992574738495
+Senegal,sem_calendario_tendencia,12,-0.038638287888400666
+Senegal,sem_calendario_tendencia,13,0.023305395183513367
+Senegal,sem_calendario_tendencia,14,0.003677232745406904
+Senegal,sem_calendario_tendencia,15,-0.014583989143110975
+Senegal,sem_calendario_tendencia,16,-0.01034507263624036
+Senegal,sem_calendario_tendencia,17,-0.03924370104696622
+Senegal,sem_calendario_tendencia,18,-0.08872638759902006
+Senegal,sem_calendario_tendencia,19,-0.10245054356730389
+Senegal,sem_calendario_tendencia,20,-0.03712649651555426
+Senegal,sem_calendario_tendencia,21,0.0011107623675425094
+Senegal,sem_calendario_tendencia,22,-0.10813033067470247
+Senegal,sem_calendario_tendencia,23,0.04320082202152377
+Senegal,sem_calendario_tendencia,24,0.08863259366862317
+Tailândia,original,1,0.2850757603861172
+Tailândia,original,2,-0.030461168128972822
+Tailândia,original,3,0.00011853105865379853
+Tailândia,original,4,-0.004470656163589748
+Tailândia,original,5,-0.008903580985150362
+Tailândia,original,6,0.11022666658372923
+Tailândia,original,7,0.1442427237175177
+Tailândia,original,8,-0.03885855339731172
+Tailândia,original,9,-0.11067780406574874
+Tailândia,original,10,-0.09177255743645923
+Tailândia,original,11,0.08590516876613992
+Tailândia,original,12,0.1861002550656948
+Tailândia,original,13,0.11887068777890926
+Tailândia,original,14,-0.011573977412197727
+Tailândia,original,15,-0.0355158912241051
+Tailândia,original,16,-0.03139965054059257
+Tailândia,original,17,-0.05112534438671736
+Tailândia,original,18,0.047361076454870324
+Tailândia,original,19,0.05582118356801281
+Tailândia,original,20,-0.012484278373839091
+Tailândia,original,21,0.02414466406424867
+Tailândia,original,22,-0.02307598457986564
+Tailândia,original,23,0.10722260513382022
+Tailândia,original,24,0.27930878371974893
+Tailândia,sem_calendario_tendencia,1,0.26734905494304584
+Tailândia,sem_calendario_tendencia,2,0.03135763432930909
+Tailândia,sem_calendario_tendencia,3,0.03064636077374305
+Tailândia,sem_calendario_tendencia,4,0.034474895407561254
+Tailândia,sem_calendario_tendencia,5,0.044536891949604314
+Tailândia,sem_calendario_tendencia,6,0.17865769575210305
+Tailândia,sem_calendario_tendencia,7,0.23481991900399968
+Tailândia,sem_calendario_tendencia,8,-0.026727247756545728
+Tailândia,sem_calendario_tendencia,9,-0.12259225842135812
+Tailândia,sem_calendario_tendencia,10,-0.040638978566512836
+Tailândia,sem_calendario_tendencia,11,0.004131382349095642
+Tailândia,sem_calendario_tendencia,12,-0.07950313065628901
+Tailândia,sem_calendario_tendencia,13,0.033924886457931375
+Tailândia,sem_calendario_tendencia,14,0.050444239555512145
+Tailândia,sem_calendario_tendencia,15,-0.005644780389618942
+Tailândia,sem_calendario_tendencia,16,0.013746165085805624
+Tailândia,sem_calendario_tendencia,17,-0.014134526578346018
+Tailândia,sem_calendario_tendencia,18,0.07957026813752673
+Tailândia,sem_calendario_tendencia,19,0.10744714306172111
+Tailândia,sem_calendario_tendencia,20,0.011147791443177037
+Tailândia,sem_calendario_tendencia,21,0.07050042310546933
+Tailândia,sem_calendario_tendencia,22,0.0523963305235425
+Tailândia,sem_calendario_tendencia,23,0.030619021243591553
+Tailândia,sem_calendario_tendencia,24,0.048729102657024466
+África do Sul,original,1,0.401875719779541
+África do Sul,original,2,0.3810482119984404
+África do Sul,original,3,0.2727381998040819
+África do Sul,original,4,0.1665581614222609
+África do Sul,original,5,0.1062497569706952
+África do Sul,original,6,0.11831230305812354
+África do Sul,original,7,0.08513195482474659
+África do Sul,original,8,0.1035190663011864
+África do Sul,original,9,0.18912120362742751
+África do Sul,original,10,0.15239252169954
+África do Sul,original,11,0.03295721430112747
+África do Sul,original,12,0.19990117959155224
+África do Sul,original,13,-0.1017165295180691
+África do Sul,original,14,-0.07720551963647679
+África do Sul,original,15,-0.08759952509186728
+África do Sul,original,16,-0.10488284263386959
+África do Sul,original,17,-0.11833112819721463
+África do Sul,original,18,-0.11066982115380875
+África do Sul,original,19,-0.1331290771742014
+África do Sul,original,20,-0.10843709022076282
+África do Sul,original,21,-0.09170811748513265
+África do Sul,original,22,-0.1277592865970402
+África do Sul,original,23,-0.20045924484056016
+África do Sul,original,24,-0.004088608422248236
+África do Sul,sem_calendario_tendencia,1,0.5278280025716574
+África do Sul,sem_calendario_tendencia,2,0.4483671550831732
+África do Sul,sem_calendario_tendencia,3,0.2843805587417929
+África do Sul,sem_calendario_tendencia,4,0.20582606839009815
+África do Sul,sem_calendario_tendencia,5,0.14967286873703622
+África do Sul,sem_calendario_tendencia,6,0.14649498192526572
+África do Sul,sem_calendario_tendencia,7,0.12489315195870246
+África do Sul,sem_calendario_tendencia,8,0.13452576689878276
+África do Sul,sem_calendario_tendencia,9,0.18616461761460681
+África do Sul,sem_calendario_tendencia,10,0.17032204226163805
+África do Sul,sem_calendario_tendencia,11,0.08913703922254142
+África do Sul,sem_calendario_tendencia,12,0.032870595916892405
+África do Sul,sem_calendario_tendencia,13,-0.06804553206059338
+África do Sul,sem_calendario_tendencia,14,-0.10952141285341475
+África do Sul,sem_calendario_tendencia,15,-0.14611120292898372
+África do Sul,sem_calendario_tendencia,16,-0.11329054423453902
+África do Sul,sem_calendario_tendencia,17,-0.11819158669279957
+África do Sul,sem_calendario_tendencia,18,-0.12549893274109994
+África do Sul,sem_calendario_tendencia,19,-0.13748498259314937
+África do Sul,sem_calendario_tendencia,20,-0.11788188559084259
+África do Sul,sem_calendario_tendencia,21,-0.14616399722914208
+África do Sul,sem_calendario_tendencia,22,-0.15444570266624544
+África do Sul,sem_calendario_tendencia,23,-0.16964183521111556
+África do Sul,sem_calendario_tendencia,24,-0.2128562160473903

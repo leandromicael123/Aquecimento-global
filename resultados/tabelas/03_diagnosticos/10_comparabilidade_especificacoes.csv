@@ -1,0 +1,3 @@
+﻿Especificação,Observações,Países,Meses,Excluídas,Covariáveis
+desenvolvimento,4665,15,311,0,"anomalia_temperatura_c, defice_hidrico_3m_z, ln_pib_pc_ppc_ano_anterior, calor_x_ln_pib"
+agricultura,4665,15,311,0,"anomalia_temperatura_c, defice_hidrico_3m_z, peso_agricola_pct_ano_anterior, calor_x_peso_agricola"

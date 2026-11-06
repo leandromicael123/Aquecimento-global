@@ -1,0 +1,11 @@
+{
+  "linhas": 4665,
+  "colunas": 16,
+  "paises": 15,
+  "meses": 311,
+  "duplicados": 0,
+  "pares_ausentes": 0,
+  "equilibrado": true,
+  "omissos": 0,
+  "sha256_entrada": "46457440f885775573a0995f1629a0d1e402b4c9d47f41abd1936e122fea3486"
+}

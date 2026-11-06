@@ -1,0 +1,8 @@
+﻿coluna,Variável,Unidade,DP total,DP entre médias,DP dentro
+inflacao_alimentar_log_pct,Inflação alimentar,100 × Δ ln IPC; aprox. %/mês,1.7821335068355908,0.29141178272032275,1.759750949332194
+anomalia_temperatura_c,Anomalia térmica,°C,0.6941647954884758,0.07153502914517153,0.6907153028249052
+defice_hidrico_3m_z,Défice hídrico de 3 meses,desvios padrão,0.9352954329219987,0.11011967377200323,0.9292239775612244
+ln_pib_pc_ppc_ano_anterior,Log PIB real por habitante (t−1),log natural,1.2340762594078831,1.2715986202563283,0.11599621640625354
+peso_agricola_pct_ano_anterior,Peso agrícola no PIB (t−1),pontos percentuais do PIB,12.978323766625634,13.242256552559384,2.1759890250468787
+calor_x_ln_pib,Calor × log PIB,°C × log PIB,6.5336377851145135,0.8234740048720642,6.485012325873112
+calor_x_peso_agricola,Calor × peso agrícola,°C × p.p. do PIB,12.79699648278697,1.7683236929251411,12.682428360730325

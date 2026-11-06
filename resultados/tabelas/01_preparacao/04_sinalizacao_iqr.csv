@@ -1,0 +1,8 @@
+﻿Variável,coluna,Sinalizados,Percentagem
+Inflação alimentar,inflacao_alimentar_log_pct,519,11.12540192926045
+Anomalia térmica,anomalia_temperatura_c,156,3.3440514469453375
+Défice hídrico de 3 meses,defice_hidrico_3m_z,53,1.1361200428724545
+Log PIB real por habitante (t−1),ln_pib_pc_ppc_ano_anterior,0,0.0
+Peso agrícola no PIB (t−1),peso_agricola_pct_ano_anterior,0,0.0
+Calor × log PIB,calor_x_ln_pib,227,4.866023579849946
+Calor × peso agrícola,calor_x_peso_agricola,781,16.741693461950696
