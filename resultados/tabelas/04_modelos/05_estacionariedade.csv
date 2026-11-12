@@ -1,0 +1,88 @@
+﻿pais_iso3,variavel,frequencia,n,deterministica,adf,p_adf,lags_adf,kpss,p_kpss,lags_kpss,p_kpss_limite,avisos
+BDI,inflacao_alimentar_log_pct,mensal,311,c,-11.426146637373495,6.688069221108886e-21,1,0.285269166552352,0.1,4,>,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+"
+BDI,peso_agricola_pct_ano_anterior,anual,26,ct,-3.536584911556911,0.035636098404744125,0,0.19039680012523638,0.019601199953036354,2,=,
+BDI,ln_pib_pc_ppc_ano_anterior,anual,26,ct,-3.005869584026554,0.1304473744975697,0,0.17566367516087,0.025280270699274993,3,=,
+BEN,inflacao_alimentar_log_pct,mensal,311,c,-6.615623669028322,6.218047310301719e-09,11,0.22839120722521747,0.1,34,>,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+"
+BEN,peso_agricola_pct_ano_anterior,anual,26,ct,-1.3266401914812238,0.8811815620329317,0,0.10028198429765384,0.1,2,>,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+"
+BEN,ln_pib_pc_ppc_ano_anterior,anual,26,ct,1.5209018698214534,1.0,3,0.18733731212483945,0.020748507953185204,3,=,
+BFA,inflacao_alimentar_log_pct,mensal,311,c,-3.5227836602790945,0.007420881968963675,12,0.02664663224200297,0.1,1,>,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+"
+BFA,peso_agricola_pct_ano_anterior,anual,26,ct,-4.908444154761285,0.0003010514157550181,0,0.09750819431366836,0.1,1,>,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+"
+BFA,ln_pib_pc_ppc_ano_anterior,anual,26,ct,-2.4851392237311245,0.3354315371760265,0,0.13656992448099395,0.06746310281297416,2,=,
+BRA,inflacao_alimentar_log_pct,mensal,311,c,-8.678066081227668,4.361224911778225e-14,1,0.05743323588197296,0.1,8,>,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+"
+BRA,peso_agricola_pct_ano_anterior,anual,26,ct,-1.8465301698757324,0.6819015607219239,0,0.15398368430223858,0.04334692974813451,3,=,
+BRA,ln_pib_pc_ppc_ano_anterior,anual,26,ct,-1.305481039406058,0.8865668108612684,0,0.16044200018634824,0.03796499984470979,3,=,
+ESP,inflacao_alimentar_log_pct,mensal,311,c,-3.513310853529028,0.007651751790559401,12,0.26489816400043115,0.1,7,>,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+"
+ESP,peso_agricola_pct_ano_anterior,anual,26,ct,-2.801389836884015,0.1964344368335601,3,0.16586092241032727,0.03344923132472727,3,=,
+ESP,ln_pib_pc_ppc_ano_anterior,anual,26,ct,-2.4380223167922406,0.35960846002009017,0,0.09182508916025874,0.1,2,>,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+"
+HND,inflacao_alimentar_log_pct,mensal,311,c,-4.212660362076296,0.0006271296532108974,9,0.21014718010525596,0.1,6,>,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+"
+HND,peso_agricola_pct_ano_anterior,anual,26,ct,-3.5632777906631246,0.033091989521751006,0,0.10429832634174464,0.1,0,>,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+"
+HND,ln_pib_pc_ppc_ano_anterior,anual,26,ct,-3.3736131142267927,0.05501450370030782,0,0.14754581475010747,0.0487118210415771,2,=,
+JPN,inflacao_alimentar_log_pct,mensal,311,c,-3.386627871611738,0.011423261460909261,11,0.8595554048727128,0.01,15,<,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is smaller than the p-value returned.
+"
+JPN,peso_agricola_pct_ano_anterior,anual,26,ct,-3.156255733624767,0.09347588591301653,1,0.12100151797742786,0.09629348522698543,2,=,
+JPN,ln_pib_pc_ppc_ano_anterior,anual,26,ct,-3.0081554349912234,0.1298151732988379,0,0.05885323757621772,0.1,2,>,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+"
+MEX,inflacao_alimentar_log_pct,mensal,311,c,-13.841817728425067,7.269048146325561e-26,1,0.08081464179830175,0.1,8,>,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+"
+MEX,peso_agricola_pct_ano_anterior,anual,26,ct,-2.2426571608692973,0.4658896969099183,0,0.19480908302650693,0.0179465938650599,3,=,
+MEX,ln_pib_pc_ppc_ano_anterior,anual,26,ct,-3.5963712394809813,0.030154253908478007,2,0.06026516376317695,0.1,0,>,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+"
+MLI,inflacao_alimentar_log_pct,mensal,311,c,-3.7074041109917784,0.004010205864189098,12,0.028958340047724615,0.1,4,>,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+"
+MLI,peso_agricola_pct_ano_anterior,anual,26,ct,-3.976126168939344,0.00950526953604539,3,0.11843876705166059,0.1,3,>,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+"
+MLI,ln_pib_pc_ppc_ano_anterior,anual,26,ct,-3.7141006263912804,0.021445316053986866,2,0.06290892553150997,0.1,2,>,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+"
+NER,inflacao_alimentar_log_pct,mensal,311,c,-3.2863603704640525,0.01549928458778768,11,0.0716693015836738,0.1,1,>,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+"
+NER,peso_agricola_pct_ano_anterior,anual,26,ct,-0.044947499279680385,0.9937486116086428,1,0.16457910839376028,0.03451740967186643,3,=,
+NER,ln_pib_pc_ppc_ano_anterior,anual,26,ct,-3.5403229710091835,0.035270120279553736,3,0.17870188550715468,0.02398679293481699,3,=,
+NGA,inflacao_alimentar_log_pct,mensal,311,c,-3.2086186065972284,0.01949118930169303,12,0.49050778614246676,0.0438045526706156,3,=,
+NGA,peso_agricola_pct_ano_anterior,anual,26,ct,-1.5232539079531073,0.8210387466396774,2,0.14090868842119408,0.059428354775566496,2,=,
+NGA,ln_pib_pc_ppc_ano_anterior,anual,26,ct,-0.9219201619292338,0.9537480595323279,0,0.19512793813011628,0.017827023201206393,3,=,
+PRT,inflacao_alimentar_log_pct,mensal,311,c,-7.361286400686342,9.48568285000788e-11,2,0.2523332347843806,0.1,7,>,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+"
+PRT,peso_agricola_pct_ano_anterior,anual,26,ct,-2.1466471310179047,0.5198967121463066,1,0.1917064441014698,0.01911008346194882,3,=,
+PRT,ln_pib_pc_ppc_ano_anterior,anual,26,ct,-1.640641344577617,0.7761160884943585,0,0.13915996321466137,0.06266673478766412,3,=,
+SEN,inflacao_alimentar_log_pct,mensal,311,c,-3.8096010048157494,0.0028105975971103817,12,0.014583122527086349,0.1,3,>,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+"
+SEN,peso_agricola_pct_ano_anterior,anual,26,ct,-3.5114376778302567,0.038182809735222055,0,0.1780749866800047,0.02422187999499823,2,=,
+SEN,ln_pib_pc_ppc_ano_anterior,anual,26,ct,-0.9055547175380243,0.9555571800674377,0,0.17117287175521415,0.029022606870654874,3,=,
+THA,inflacao_alimentar_log_pct,mensal,311,c,-3.9462549008738406,0.0017196143009551228,11,0.43886475403394193,0.060403123261231935,3,=,
+THA,peso_agricola_pct_ano_anterior,anual,26,ct,-2.236461452165891,0.46936219231400783,1,0.13768168644458728,0.0654042843618754,3,=,
+THA,ln_pib_pc_ppc_ano_anterior,anual,26,ct,-1.5164065873896662,0.82344972963921,0,0.1779017642836538,0.024286838393629818,3,=,
+ZAF,inflacao_alimentar_log_pct,mensal,311,c,-4.1978270027838205,0.0006645031522038468,12,0.11143449955782948,0.1,9,>,"The test statistic is outside of the range of p-values available in the
+look-up table. The actual p-value is greater than the p-value returned.
+"
+ZAF,peso_agricola_pct_ano_anterior,anual,26,ct,-1.8505917910083254,0.6798678317714224,0,0.17619756950504165,0.02492591143560938,3,=,
+ZAF,ln_pib_pc_ppc_ano_anterior,anual,26,ct,-1.076307715804345,0.9329310251406271,0,0.19594543113374036,0.017520463324847364,3,=,

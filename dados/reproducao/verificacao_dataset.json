@@ -1,0 +1,73 @@
+{
+  "periodo_dados_brutos": [
+    "2000-01",
+    "2025-12"
+  ],
+  "periodo_painel": [
+    "2000-02",
+    "2025-12"
+  ],
+  "n_paises": 15,
+  "n_meses_por_pais": 311,
+  "n_linhas_painel": 4665,
+  "n_linhas_dados_brutos_mensais": 4680,
+  "n_linhas_anuais": 390,
+  "n_linhas_clima_historico": 22500,
+  "n_normais": 180,
+  "pares_duplicados_painel": 0,
+  "omissos_painel": {
+    "pais_iso3": 0,
+    "pais": 0,
+    "data": 0,
+    "ano": 0,
+    "mes": 0,
+    "inflacao_alimentar_log_pct": 0,
+    "anomalia_temperatura_c": 0,
+    "defice_hidrico_3m_z": 0,
+    "ln_pib_pc_ppc_ano_anterior": 0,
+    "peso_agricola_pct_ano_anterior": 0,
+    "calor_x_ln_pib": 0,
+    "calor_x_peso_agricola": 0,
+    "ano_dados_economicos": 0,
+    "grupo_rendimento_2027": 0,
+    "flag_ipc_faostat": 0,
+    "amostra_temporal": 0
+  },
+  "flags_faostat_mensais": {
+    "X": 4476,
+    "A": 204
+  },
+  "portugal_treino": 299,
+  "portugal_teste": 12,
+  "conferencias_independentes": [
+    {
+      "pais_iso3": "PRT",
+      "data": "2000-02-01",
+      "inflacao_log_pct": 0.21828058243320284,
+      "defice_hidrico_3m_z": 1.0551288435875859
+    },
+    {
+      "pais_iso3": "THA",
+      "data": "2020-02-01",
+      "inflacao_log_pct": 0.3618356625613107,
+      "defice_hidrico_3m_z": 1.6662351645542086
+    },
+    {
+      "pais_iso3": "NER",
+      "data": "2024-02-01",
+      "inflacao_log_pct": 0.234650373056354,
+      "defice_hidrico_3m_z": 0.8564727446484212
+    },
+    {
+      "pais_iso3": "BRA",
+      "data": "2025-12-01",
+      "inflacao_log_pct": 0.2696360286313044,
+      "defice_hidrico_3m_z": 1.1005208266358633
+    }
+  ],
+  "ambiente": {
+    "python": "3.12.8",
+    "pandas": "2.2.3",
+    "numpy": "2.2.3"
+  }
+}

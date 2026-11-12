@@ -1,74 +1,71 @@
-# Aquecimento global e inflação alimentar
+# Clima e inflação alimentar
 
-Trabalho de Modelos Longitudinais — preparação, exploração e diagnóstico de um painel mensal de 15 países, de fevereiro de 2000 a dezembro de 2025.
+Parte 1 do trabalho de Modelos Longitudinais: preparação, exploração e modelização de um painel mensal de 15 países, de fevereiro de 2000 a dezembro de 2025. Inclui pooled OLS, efeitos fixos, efeitos aleatórios e avaliação dos resíduos.
 
-## Ordem de leitura
+## Ler o trabalho
 
-1. `notebooks/01_preparacao_e_qualidade.ipynb`: perguntas de investigação, variáveis, unidades, cobertura, omissos, sinalização de extremos e conferência das transformações.
-2. `notebooks/02_exploracao_visual.ipynb`: estatísticas, trajetórias, distribuições, evolução agregada e variabilidade entre e dentro dos países.
-3. `notebooks/03_diagnosticos_e_alteracoes.ipynb`: sazonalidade, autocorrelação, movimentos comuns, extremos, amostras comparáveis e alterações propostas para a modelação.
+Começar pela [síntese da Parte 1](relatorio/parte1.md). Apresenta o problema, os dados, os modelos, os resultados e as limitações sem exigir leitura do código.
 
-Cada notebook contém resultados executados, gráficos e interpretações. Pode ser executado autonomamente. Os modelos de painel finais ainda não foram estimados.
+Os cálculos estão em quatro notebooks, que podem ser executados individualmente:
 
-## Organização dos ficheiros
+1. [Preparação e qualidade](notebooks/01_preparacao_e_qualidade.ipynb): questões, fontes, unidades, cobertura, omissos, extremos e reprodução dos indicadores.
+2. [Exploração](notebooks/02_exploracao_visual.ipynb): trajetórias, distribuições, períodos e variação dentro e entre países.
+3. [Diagnósticos exploratórios](notebooks/03_diagnosticos_e_alteracoes.ipynb): sazonalidade, dependência, choques comuns e decisões que fundamentam os modelos.
+4. [Modelos e interpretação](notebooks/04_modelos_painel.ipynb): estimação, comparação, resíduos, estacionariedade, sensibilidades e respostas às questões.
 
-```text
-Trabalho/
-├── dados/
-│   ├── originais/          # Entradas fornecidas, preservadas sem alterações
-│   ├── processados/        # Painel longo verificado e ordenado
-│   └── modelacao/          # Amostras por especificação e amostra comum
-├── notebooks/              # Três documentos de análise, pela ordem acima
-├── scripts/
-│   ├── preparacao.py       # Leitura, qualidade e conferência dos dados
-│   ├── exploracao.py       # Estatísticas e medidas de dispersão
-│   ├── analise_resultados.py # Comparações por país/período e associações
-│   ├── diagnosticos.py     # Testes, extremos e propostas de alteração
-│   ├── graficos.py         # Uma função por figura
-│   ├── estilo_iscte.py     # Cores, rótulos e apresentação das tabelas
-│   └── reexecutar.py       # Executa os notebooks pela ordem de leitura
-├── resultados/
-│   ├── tabelas/            # CSV e registo de qualidade JSON, por etapa
-│   │   ├── 01_preparacao/
-│   │   ├── 02_exploracao/
-│   │   └── 03_diagnosticos/
-│   └── graficos/           # Cada figura em PNG e SVG, por etapa
-│       ├── 02_exploracao/
-│       └── 03_diagnosticos/
-├── requirements.txt
-└── README.md
-```
-
-Os nomes e números das figuras correspondem aos ficheiros exportados. Os ficheiros Python contêm funções com nomes descritivos; os notebooks apresentam as chamadas, resultados e interpretação.
+O resultado principal é sensível ao calendário: a associação contemporânea da temperatura, ao peso agrícola médio, tem IC 95% que inclui zero após controlar a sazonalidade nacional. A versão com temperatura do mês anterior apresenta uma associação positiva. O notebook discute ambos os resultados, incluindo os limites da inferência com 15 países e da interpretação causal.
 
 ## Executar
 
-Ambiente usado: Python 3.12. Na pasta `Trabalho`, instalar as dependências e executar:
+Python 3.12. No PowerShell, a partir desta pasta:
 
-```bash
-python -m pip install -r requirements.txt
-python scripts/reexecutar.py
+```powershell
+python -m venv .venv
+.\.venv\Scripts\python.exe -m pip install -r requirements.txt
+.\.venv\Scripts\python.exe scripts\verificar_reproducao.py
+.\.venv\Scripts\python.exe scripts\reexecutar.py
+.\.venv\Scripts\python.exe -m unittest discover -s tests -v
 ```
 
-Para trabalho interativo, abrir os `.ipynb` no VS Code com a extensão Jupyter ou no JupyterLab. Escolher um kernel Python com as dependências instaladas. Os notebooks localizam os dados quer sejam abertos a partir da raiz, quer a partir de `notebooks/`.
+Em Linux/macOS, usar `.venv/bin/python` em vez do caminho Windows. O executor utiliza o Python ativo para os kernels, evitando executar os notebooks num ambiente global diferente.
 
-## Convenções de leitura
+O primeiro script verifica os 51 hashes das fontes, reconstrói os indicadores offline e compara-os com as entradas originais. O segundo executa os quatro notebooks, atualiza tabelas/figuras/síntese e grava [o registo de execução](resultados/verificacao_execucao.json). Não é necessária ligação à Internet depois de instalar as dependências.
 
-- Os dados originais não são sobrescritos por nenhum notebook.
-- A inflação é uma taxa logarítmica mensal, aproximadamente percentual; não é a taxa homóloga.
-- As covariáveis económicas são anuais, desfasadas um ano e repetidas nos meses. Não foram interpoladas.
-- Os extremos são sinalizados e verificados, sem exclusão automática. A sensibilidade com limites de quantis é apenas um cenário separado.
-- As figuras apresentam títulos, eixos, unidades, legenda quando necessária e fonte. São guardadas em PNG e SVG.
-- As tabelas de resultados mantêm os nomes técnicos nos CSV para facilitar reprodução; o notebook oferece rótulos explicativos.
+A [auditoria do código](docs/auditoria_codigo.md) documenta a lista de erros comuns, as correções e os testes. O notebook 04 inclui a sensibilidade de Driscoll–Kraay e a retirada de um país de cada vez. O registo distingue execução em curso, concluída ou falhada e identifica as versões dos scripts por hash.
 
-## Estilo e referências
+## Organização
 
-O azul institucional Iscte é `#0D28C2` (RGB 13, 40, 194), conforme o [Manual de Marca, secção Cor](https://cies.iscte.pt/np4/?fileName=manual_de_marca_versao_digital_marco_202.pdf&newsId=3485). Branco e cinzentos compõem a base. Cores de contraste distinguem séries e sinais nas figuras, sem pretensão de certificar uma aplicação oficial da marca. A tipografia usa Montserrat quando instalada, com alternativa legível local.
+```text
+dados/originais/       Entradas da análise, preservadas
+dados/reproducao/      Script de construção, arquivos de origem e normais climáticas
+dados/processados/    Painel ordenado
+dados/modelacao/      Amostras preparadas
+notebooks/            Quatro etapas da Parte 1
+scripts/              Funções de preparação, análise, gráficos e execução
+resultados/tabelas/   CSV sem arredondamentos de apresentação, por etapa
+resultados/graficos/  Figuras exploratórias e versões compactas
+relatorio/parte1.md   Síntese autónoma da Parte 1
+docs/                 Decisões, cobertura do guião e registo do apoio de IA
+```
 
-As fontes, versões e limitações dos dados constam de `dados/originais/fontes.csv`, `dicionario_variaveis.csv` e `metodologia_original.txt`. A documentação técnica dos testes está citada no notebook 03.
+A pasta [de reprodução](dados/reproducao/PROVENIENCIA.md) contém o pacote recuperado cujo painel coincide com a entrada. `metodologia_original.txt` descreve esse pacote histórico; o estado atual do trabalho é o documentado aqui.
 
-## Interpretações dos resultados
+## Convenções de análise
 
-As análises encontram-se em células Markdown junto das tabelas e figuras, incluindo comparações entre países e períodos, decomposição exata da variância, duas janelas climáticas completas e correlações brutas e após retirar médias de país e data. O texto refere-se à versão dos dados em `dados/originais/`; se esses dados forem substituídos, as interpretações também devem ser revistas.
+- A inflação é `100 × Δln(IPC)`, aproximadamente percentual por mês; não é a taxa homóloga.
+- A especificação principal tem temperatura, défice hídrico, agricultura centrada e interação. O log PIB permanece na exploração.
+- As variáveis económicas são anuais, do ano anterior e repetidas nos meses, sem interpolação. Os testes dessas variáveis usam uma observação por ano.
+- O trio pooled/FE país/RE partilha covariáveis, amostra e ausência de efeitos de tempo. As extensões FE acrescentam data e sazonalidade nacional na mesma amostra.
+- Os IC usam erros agrupados por país e t(14). O R² RE refere-se à regressão GLS transformada, ao contrário do R² OLS; não são diretamente comparáveis.
+- Os resíduos RE guardados pela biblioteca pertencem à transformação GLS. O seu RMSE não é usado como uma medida diretamente comparável ao RMSE OLS.
+- O Hausman usa variância comum do RE: χ²(4)=10,466 e p=0,0333. A dificuldade da subtração sem normalização está documentada. Um teste complementar de Mundlak com EP agrupados dá F(4,14)=5,730 e p=0,0060; a inferência com 15 grupos continua aproximada.
+- Nenhum extremo é retirado da análise principal. A limitação nos quantis é apenas sensibilidade numa cópia dos dados.
+- As figuras compactas em `resultados/graficos/04_modelos/` têm versões PNG a 300 dpi, SVG e PDF. Títulos, fontes e notas ficam no texto, permitindo inserção no relatório.
 
-Na apresentação, seguem-se as referências [no-slop-ui](https://github.com/LeoStehlik/no-slop-ui) e [no-ai-slop](https://github.com/petergyang/no-ai-slop): títulos e tabelas simples, gráficos identificados e interpretações sustentadas por valores calculados. As grelhas de indicadores e os cabeçalhos decorativos foram retirados.
+As interpretações referem-se à versão dos dados aqui guardada. Se a entrada for substituída, os números são recalculados, mas o texto interpretativo dos notebooks deve ser revisto. As validações que fixam a dimensão esperada também devem ser reavaliadas.
+
+## Âmbito e entrega
+
+A [matriz de cobertura](docs/cobertura_parte1.md) liga cada requisito das secções 3.1–3.3 ao respetivo resultado. As [decisões](docs/decisoes_parte1.md) explicam como o feedback foi aplicado; o [registo de IA](docs/uso_ia.md) documenta o apoio conhecido nesta revisão.
+
+A Parte 2 (SARIMA) e o relatório final conjunto de quatro páginas não foram produzidos nesta revisão da Parte 1. O grupo ainda precisa de confirmar o registo no Excel, a identificação dos membros e a declaração completa de IA. Não se deve utilizar a exploração de Portugal que inclui 2025 para selecionar modelos de previsão.

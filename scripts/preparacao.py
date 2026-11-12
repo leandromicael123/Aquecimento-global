@@ -25,6 +25,7 @@ def resumir_cobertura(dados):
     grelha = pd.MultiIndex.from_product([paises, meses], names=CHAVE)
     observados = pd.MultiIndex.from_frame(dados[CHAVE])
     ausentes = grelha.difference(observados)
+    fora_grelha = observados.difference(grelha)
     cobertura = (
         dados.groupby(["pais_iso3", "pais"])
         .agg(meses=("data", "size"), inicio=("data", "min"), fim=("data", "max"))
@@ -37,7 +38,10 @@ def resumir_cobertura(dados):
         "meses": len(meses),
         "duplicados": int(dados.duplicated(CHAVE).sum()),
         "pares_ausentes": len(ausentes),
-        "equilibrado": len(ausentes) == 0 and not dados.duplicated(CHAVE).any(),
+        "pares_fora_grelha": len(fora_grelha),
+        "equilibrado": (len(ausentes) == 0 and len(fora_grelha) == 0
+                        and not dados[CHAVE].isna().any().any()
+                        and not dados.duplicated(CHAVE).any()),
     }
     return resumo, cobertura
 
@@ -55,13 +59,19 @@ def contar_omissos(dados):
 
 def conferir_campos(dados, variaveis):
     """Interrompe a análise se houver chaves ou metadados incoerentes."""
-    assert not dados.duplicated(CHAVE).any(), "Há pares país–mês repetidos."
-    assert np.isfinite(dados[variaveis]).all().all(), "Há valores não finitos."
-    assert dados.ano.eq(dados.data.dt.year).all()
-    assert dados.mes.eq(dados.data.dt.month).all()
-    assert dados.ano_dados_economicos.eq(dados.ano - 1).all()
+    if dados[CHAVE].isna().any().any() or dados.duplicated(CHAVE).any():
+        raise ValueError("Chave país–mês omissa ou repetida.")
+    if not np.isfinite(dados[variaveis]).all().all():
+        raise ValueError("Há valores omissos ou não finitos.")
+    if not dados.data.dt.is_month_start.all():
+        raise ValueError("As datas devem identificar o primeiro dia do mês.")
+    if not (dados.ano.eq(dados.data.dt.year).all()
+            and dados.mes.eq(dados.data.dt.month).all()
+            and dados.ano_dados_economicos.eq(dados.ano - 1).all()):
+        raise ValueError("Ano, mês ou desfasamento económico incoerente com a data.")
     contagem = dados.groupby(["pais_iso3", "ano"])[ECONOMICAS].nunique()
-    assert contagem.le(1).all().all(), "Uma covariável anual varia dentro do ano."
+    if not contagem.le(1).all().all():
+        raise ValueError("Uma covariável anual varia dentro do ano.")
 
 
 def conferir_transformacoes(dados, pasta_dados):
@@ -74,7 +84,9 @@ def conferir_transformacoes(dados, pasta_dados):
         validate="many_to_one",
         suffixes=("", "_fonte"),
     )
-    assert comparacao.pib_pc_ppc_2021.notna().all()
+    fonte = comparacao[["pib_pc_ppc_2021", "peso_agricola_pct_pib"]]
+    if not np.isfinite(fonte).all().all() or not fonte.pib_pc_ppc_2021.gt(0).all():
+        raise ValueError("Fonte anual omissa, não finita ou PIB não positivo.")
     erros = {
         "Log PIB do ano anterior": comparacao.ln_pib_pc_ppc_ano_anterior
         - np.log(comparacao.pib_pc_ppc_2021),
@@ -91,6 +103,8 @@ def conferir_transformacoes(dados, pasta_dados):
             for nome, valores in erros.items()
         ]
     )
+    if any(not np.isfinite(valores).all() for valores in erros.values()):
+        raise ValueError("A conferência produziu diferenças omissas ou não finitas.")
     assert conferencia["Erro absoluto máximo"].max() < 1e-9
     return conferencia
 

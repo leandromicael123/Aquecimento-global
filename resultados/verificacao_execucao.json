@@ -1,0 +1,58 @@
+{
+  "estado": "concluido",
+  "inicio_utc": "2026-11-12T09:34:36.431798+00:00",
+  "python": "3.12.8",
+  "notebooks": [
+    {
+      "notebook": "01_preparacao_e_qualidade.ipynb",
+      "celulas_codigo": 8,
+      "erros": 0,
+      "sha256": "c360d983521ca998452f0bcc8d6277afda5353c5e0fe3dba385be1cd56dd5bf4"
+    },
+    {
+      "notebook": "02_exploracao_visual.ipynb",
+      "celulas_codigo": 11,
+      "erros": 0,
+      "sha256": "f3977b1289e85c75f2741d6fef44ea2bad123860e7e2582f07dfe38cd9de0292"
+    },
+    {
+      "notebook": "03_diagnosticos_e_alteracoes.ipynb",
+      "celulas_codigo": 9,
+      "erros": 0,
+      "sha256": "e9e60bb0ed892db776b0c299d405bdde49765ce30305e7c008b7f2b75c029e4d"
+    },
+    {
+      "notebook": "04_modelos_painel.ipynb",
+      "celulas_codigo": 11,
+      "erros": 0,
+      "sha256": "2bc22fcb472af149bacf04a65d81e14bd5b6713bd738c2d13ee40bc9517ccec3"
+    }
+  ],
+  "bibliotecas": {
+    "pandas": "2.2.3",
+    "numpy": "2.2.3",
+    "matplotlib": "3.10.1",
+    "scipy": "1.15.2",
+    "statsmodels": "0.14.6",
+    "linearmodels": "7.0",
+    "nbclient": "0.10.2",
+    "nbformat": "5.10.4",
+    "ipykernel": "6.29.5",
+    "threadpoolctl": "3.5.0"
+  },
+  "fim_utc": "2026-11-12T09:35:35.142427+00:00",
+  "scripts_sha256": {
+    "analise_resultados.py": "8e45804e11df213457f75decd7bcc2021864bc956b466f4c5478d0f6216ecfe2",
+    "auditoria.py": "f18dc2cf67aeccfb9d7503a3041463b81682258bafc1993ea669b65dfb99b5fa",
+    "diagnosticos.py": "18489316c1e86222978618eeffaa60a02f878f44e91d2976787ad451ebce01d4",
+    "estilo_iscte.py": "7d3980852a29f0b7f789c619a4f35365ba1fc264a7e5412c0288a233738701d2",
+    "exploracao.py": "f23fa9764e9251b403bad52849f70751b0c99e33a8e5344265b5f19681c60d72",
+    "graficos.py": "96fdc4f11161d5be97945ec11ff1c3a545151f8aadabbf40667a19d13c192e0e",
+    "graficos_parte1.py": "985210bb7ff0a46ea1c2b3fc9de68174884359ff6bd4dfdddbb717a31cf3d389",
+    "modelos_painel.py": "1fa80a50f0c2bddb54ae5444487ad2e2dcbfa012bcec769dad49a64daf72c817",
+    "preparacao.py": "b8167dea49c59d62ebaeed7420af9d252d36ecdc05c9833385cb159d7f769ff2",
+    "reexecutar.py": "c36e2c3b2a3f597648ee803fc3df69a2d15797aac0e66633b77ff72e231b2e0a",
+    "sintese_parte1.py": "bc0f0c94feb4febfcdd425356610a2c1503f3bf3bdf3ce53161c91046b46ed8d",
+    "verificar_reproducao.py": "910051916fccbba9ef155bf29e6d808a8f51cce205f9da5cbe64ea13b81fcd1f"
+  }
+}

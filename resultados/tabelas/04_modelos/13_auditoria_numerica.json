@@ -1,0 +1,12 @@
+{
+  "condicao_regressores_apos_controlos": 1.4934757192668116,
+  "erro_maximo_fwl": 3.580035573547136e-15,
+  "centro_agricultura": 15.436017756224686,
+  "janelas_dk": [
+    12,
+    24
+  ],
+  "fwl_confere": true,
+  "dk_lag_zero_confere": true,
+  "ressalva": "Sensibilidades; DK requer dimensão temporal longa. Nenhum método garante inferência exata."
+}

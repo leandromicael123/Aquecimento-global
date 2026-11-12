@@ -1,0 +1,6 @@
+# Estes ficheiros são identificados por SHA-256 nos registos de validação.
+# Preservar os bytes evita alterar os hashes ao clonar noutro sistema.
+dados/originais/** -text
+dados/reproducao/** -text
+scripts/*.py -text
+notebooks/*.ipynb -text

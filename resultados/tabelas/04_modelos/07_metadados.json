@@ -1,0 +1,52 @@
+{
+  "centro_agricultura": 15.436017756224686,
+  "n": 4665,
+  "grupos": 15,
+  "meses": 311,
+  "hausman": {
+    "estatistica": 10.465677549762562,
+    "gl": 4,
+    "p_valor": 0.033273071135313734,
+    "matriz_positiva": true,
+    "autovalores": [
+      5.751506483196634e-09,
+      5.419039844334984e-07,
+      1.0786537680480885e-06,
+      0.00011271655947328938
+    ],
+    "metodo": "Variância comum do RE, sem alterar coeficientes nem regularizar a matriz",
+    "sigma2_fe": 3.101590541046123,
+    "sigma2_re": 3.1059036362808397,
+    "autovalores_sem_normalizacao": [
+      -1.8829693373620408e-06,
+      -7.089995153346262e-09,
+      1.0080554258621965e-07,
+      0.00011251653777440761
+    ],
+    "ressalva": "Referência clássica: requer RE eficiente; não é robusta aos padrões residuais observados."
+  },
+  "mundlak": {
+    "estatistica_f": 5.730420469650092,
+    "gl_numerador": 4,
+    "gl_denominador": 14,
+    "p_valor": 0.006024668909366758,
+    "wald": 22.921681878600367,
+    "n": 4665,
+    "grupos": 15,
+    "hipotese": "Coeficientes das quatro médias nacionais conjuntamente iguais a zero",
+    "ressalva": "Teste complementar; F aproximado com 15 grupos, sem correção de dependência transversal."
+  },
+  "theta_re": 0.6640428329089405,
+  "variancias_re": {
+    "Effects": 0.07838715121797805,
+    "Residual": 3.101590541046123,
+    "Percent due to Effects": 0.024650220474398195
+  },
+  "validacoes": [
+    "centragem preserva previsões",
+    "FE coincide com within",
+    "desenhos de posto completo",
+    "declives do RE aumentado de Mundlak coincidem com FE"
+  ],
+  "comparabilidade": "Trio base sem tempo; extensões FE com data e sazonalidade na mesma amostra."
+}
