@@ -15,7 +15,7 @@ CSV em UTF-8 com BOM, separador vírgula e ponto decimal. Datas no formato AAAA-
 - `dados_brutos_anuais.csv`: 390 registos, 15 países × 26 anos, com PIB real por habitante em PPC e peso agrícola de 1999–2024.
 - `clima_historico_mensal.csv`: 22 500 registos de clima, de 1901 a 2025, para reproduzir os indicadores e a referência histórica.
 - `normais_climaticas_1991_2020.csv`: 180 referências, uma por país e mês do calendário.
-- `portugal_sarima.csv`: a mesma resposta do painel para Portugal, com 299 meses de treino e 12 meses de teste.
+- `portugal_sarima.csv`: a mesma resposta do painel para Portugal, com 299 meses de treino e 12 meses de teste (do plano inicial; não é usado na Parte 2, que usa o Níger).
 - `paises.csv`: nomes, códigos e grupos atuais de rendimento.
 - `dicionario_variaveis.csv`: significado, unidade, papel, regra de cálculo e fonte de cada coluna.
 - `fontes.csv` e `manifesto_fontes.json`: ligações exatas, versões, datas de recolha e SHA-256 dos arquivos originais.
@@ -35,18 +35,22 @@ CSV em UTF-8 com BOM, separador vírgula e ponto decimal. Datas no formato AAAA-
 6. PIB e peso agrícola: utiliza-se o ano t−1 em todos os meses do ano t. Estes valores continuam a ser anuais. Não houve interpolação nem criação de medições económicas mensais. O desfasamento não garante, por si só, que o dado já estivesse publicado em tempo real.
 7. Interações = anomalia de temperatura × logaritmo do PIB do ano anterior, ou × peso agrícola do ano anterior. Os produtos são calculados sem centrar ou padronizar as variáveis económicas. O peso agrícola está em pontos percentuais: 5 representa 5% do PIB.
 
-## Modelos previstos
+## Modelos
 
 Resposta comum: `inflacao_alimentar_log_pct`.
 
-- Especificação desenvolvimento: `anomalia_temperatura_c`, `defice_hidrico_3m_z`, `ln_pib_pc_ppc_ano_anterior`, `calor_x_ln_pib`.
-- Especificação agricultura: `anomalia_temperatura_c`, `defice_hidrico_3m_z`, `peso_agricola_pct_ano_anterior`, `calor_x_peso_agricola`.
+Em outubro de 2026, este pacote previa duas especificações de painel, cada uma com quatro termos explicativos:
 
-Cada especificação tem quatro termos explicativos. Comparar pooled OLS, efeitos fixos e efeitos aleatórios com a mesma amostra e covariáveis dentro de cada especificação. A seleção e estimação dos modelos não foram realizadas neste pacote.
+- desenvolvimento: `anomalia_temperatura_c`, `defice_hidrico_3m_z`, `ln_pib_pc_ppc_ano_anterior`, `calor_x_ln_pib`;
+- agricultura: `anomalia_temperatura_c`, `defice_hidrico_3m_z`, `peso_agricola_pct_ano_anterior`, `calor_x_peso_agricola`.
 
-## Portugal e previsão
+A Parte 1 manteve uma só especificação: temperatura, défice hídrico, peso agrícola centrado e a interação temperatura × peso agrícola; o log PIB ficou na exploração. Os modelos foram estimados no notebook 04 (pooled OLS, efeitos fixos e efeitos aleatórios, com a mesma amostra e as mesmas covariáveis); as convenções estão no README da raiz do repositório.
 
-Extrair Portugal da coluna `pais_iso3` ou usar `portugal_sarima.csv`. Treino: fevereiro de 2000 a dezembro de 2024 (299 meses). Teste: janeiro a dezembro de 2025 (12 meses). Ajustar e escolher modelos apenas com o treino. Comparar SARIMA com ARIMA e previsão ingénua sazonal, a partir do final do treino, com o mesmo horizonte. A coluna `amostra_temporal` define essa separação em todos os países; o país escolhido para o exercício é Portugal.
+## Série para a previsão (Parte 2)
+
+A Parte 2 usa o Níger (`pais_iso3` = `NER`). Os notebooks 05 e 06 extraem a série de `dados/processados/painel_longo.csv`, que tem os mesmos valores de `painel_indicadores.csv` para este país. Treino: fevereiro de 2000 a dezembro de 2024 (299 meses). Teste: janeiro a dezembro de 2025 (12 meses). Os modelos são escolhidos só com o treino e comparados com o ARIMA sem componente sazonal e com a previsão ingénua sazonal, a partir do fim do treino e com o mesmo horizonte. A coluna `amostra_temporal` define a separação em todos os países.
+
+Quando este pacote foi construído, o país previsto era Portugal. Por isso, `construir_dataset.py` continua a gerar `portugal_sarima.csv` e a contar os meses de Portugal em `verificacao_dataset.json`, e a nota da coluna `amostra_temporal` em `dicionario_variaveis.csv` refere Portugal. Esses elementos não são usados na Parte 2.
 
 Exemplo em Python:
 
@@ -54,9 +58,9 @@ Exemplo em Python:
 import pandas as pd
 
 df = pd.read_csv('painel_indicadores.csv', parse_dates=['data'])
-pt = df.loc[df['pais_iso3'].eq('PRT')].set_index('data').sort_index()
-y_treino = pt.loc[:'2024-12-01', 'inflacao_alimentar_log_pct'].asfreq('MS')
-y_teste = pt.loc['2025-01-01':, 'inflacao_alimentar_log_pct'].asfreq('MS')
+ner = df.loc[df['pais_iso3'].eq('NER')].set_index('data').sort_index()
+y_treino = ner.loc[:'2024-12-01', 'inflacao_alimentar_log_pct'].asfreq('MS')
+y_teste = ner.loc['2025-01-01':, 'inflacao_alimentar_log_pct'].asfreq('MS')
 ```
 
 ## Qualidade e limites
