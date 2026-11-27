@@ -1,0 +1,461 @@
+[
+  {
+    "entidade": "FAO",
+    "conjunto": "Consumer Price Indices (CP)",
+    "url": "https://bulks-faostat.fao.org/production/ConsumerPriceIndices_E_All_Data_(Normalized).zip",
+    "versao": "Atualização 2026-07-29",
+    "ficheiro_original": "fontes_originais/FAOSTAT_CP.zip",
+    "recolhido_utc": "2026-10-17T23:49:25.207902+00:00",
+    "sha256": "acb1ef08e7eabc4f8ff1ed630a5426d6c014b094fb766ce4aca2563ae91ab0f6"
+  },
+  {
+    "entidade": "FAO",
+    "conjunto": "Catálogo de dados FAOSTAT",
+    "url": "https://bulks-faostat.fao.org/production/datasets_E.json",
+    "versao": "Consulta de outubro de 2026",
+    "ficheiro_original": "fontes_originais/catalogo_faostat.json",
+    "recolhido_utc": "2026-10-17T23:49:25.089277+00:00",
+    "sha256": "f294cc8002c70eeb411697c1522324fd7bfe020a7cb4ba86d70f217c3d63fbf1"
+  },
+  {
+    "entidade": "Climatic Research Unit, University of East Anglia",
+    "conjunto": "CRU-CY BRA tmp",
+    "url": "https://crudata.uea.ac.uk/cru/data/hrg/cru_ts_4.10/crucy.2606161920.v4.10/countries/tmp/crucy.v4.10.1901.2025.Brazil.tmp.per",
+    "versao": "4.10; 1901-2025",
+    "ficheiro_original": "fontes_originais/CRU/BRA_tmp.per",
+    "recolhido_utc": "2026-10-17T23:51:00.381160+00:00",
+    "sha256": "23b738327d524bce8ab088f21221d145954552920ac14b27af1bea12f752eb54"
+  },
+  {
+    "entidade": "Climatic Research Unit, University of East Anglia",
+    "conjunto": "CRU-CY JPN tmp",
+    "url": "https://crudata.uea.ac.uk/cru/data/hrg/cru_ts_4.10/crucy.2606161920.v4.10/countries/tmp/crucy.v4.10.1901.2025.Japan.tmp.per",
+    "versao": "4.10; 1901-2025",
+    "ficheiro_original": "fontes_originais/CRU/JPN_tmp.per",
+    "recolhido_utc": "2026-10-17T23:51:00.387080+00:00",
+    "sha256": "2b1adeeed85bf477a924318d97aee3cd26e4c8235ef9cb32c16ed045b72dd8f6"
+  },
+  {
+    "entidade": "Climatic Research Unit, University of East Anglia",
+    "conjunto": "CRU-CY ESP tmp",
+    "url": "https://crudata.uea.ac.uk/cru/data/hrg/cru_ts_4.10/crucy.2606161920.v4.10/countries/tmp/crucy.v4.10.1901.2025.Spain.tmp.per",
+    "versao": "4.10; 1901-2025",
+    "ficheiro_original": "fontes_originais/CRU/ESP_tmp.per",
+    "recolhido_utc": "2026-10-17T23:51:00.407815+00:00",
+    "sha256": "e23dcca0d5f9eb64e192798014117f4b9808e2c26cad67713a88d057ca4bdce6"
+  },
+  {
+    "entidade": "Climatic Research Unit, University of East Anglia",
+    "conjunto": "CRU-CY MEX tmp",
+    "url": "https://crudata.uea.ac.uk/cru/data/hrg/cru_ts_4.10/crucy.2606161920.v4.10/countries/tmp/crucy.v4.10.1901.2025.Mexico.tmp.per",
+    "versao": "4.10; 1901-2025",
+    "ficheiro_original": "fontes_originais/CRU/MEX_tmp.per",
+    "recolhido_utc": "2026-10-17T23:51:00.589283+00:00",
+    "sha256": "136dd4ab978e8f91ea36fa7ce80000eeb82de50920c46bb8525b84b5f7ddb23d"
+  },
+  {
+    "entidade": "Climatic Research Unit, University of East Anglia",
+    "conjunto": "CRU-CY PRT tmp",
+    "url": "https://crudata.uea.ac.uk/cru/data/hrg/cru_ts_4.10/crucy.2606161920.v4.10/countries/tmp/crucy.v4.10.1901.2025.Portugal.tmp.per",
+    "versao": "4.10; 1901-2025",
+    "ficheiro_original": "fontes_originais/CRU/PRT_tmp.per",
+    "recolhido_utc": "2026-10-17T23:51:00.639848+00:00",
+    "sha256": "f5522b22c45e0bcec524e60dfbaf15540cf0e305a89a533a9d083b07c27eb9c1"
+  },
+  {
+    "entidade": "Climatic Research Unit, University of East Anglia",
+    "conjunto": "CRU-CY ZAF tmp",
+    "url": "https://crudata.uea.ac.uk/cru/data/hrg/cru_ts_4.10/crucy.2606161920.v4.10/countries/tmp/crucy.v4.10.1901.2025.South_Africa.tmp.per",
+    "versao": "4.10; 1901-2025",
+    "ficheiro_original": "fontes_originais/CRU/ZAF_tmp.per",
+    "recolhido_utc": "2026-10-17T23:51:05.630705+00:00",
+    "sha256": "b79b926ab62335c9b6ad7013c27329d45bd812d52b1d89cf17a9e24bd5561e29"
+  },
+  {
+    "entidade": "Climatic Research Unit, University of East Anglia",
+    "conjunto": "CRU-CY THA tmp",
+    "url": "https://crudata.uea.ac.uk/cru/data/hrg/cru_ts_4.10/crucy.2606161920.v4.10/countries/tmp/crucy.v4.10.1901.2025.Thailand.tmp.per",
+    "versao": "4.10; 1901-2025",
+    "ficheiro_original": "fontes_originais/CRU/THA_tmp.per",
+    "recolhido_utc": "2026-10-17T23:51:05.842963+00:00",
+    "sha256": "9db2cea3fe35963b24e0ee0807933453952a1be32d57b979adac570c7e2ed652"
+  },
+  {
+    "entidade": "Climatic Research Unit, University of East Anglia",
+    "conjunto": "CRU-CY ESP pre",
+    "url": "https://crudata.uea.ac.uk/cru/data/hrg/cru_ts_4.10/crucy.2606161920.v4.10/countries/pre/crucy.v4.10.1901.2025.Spain.pre.per",
+    "versao": "4.10; 1901-2025",
+    "ficheiro_original": "fontes_originais/CRU/ESP_pre.per",
+    "recolhido_utc": "2026-10-17T23:51:11.813839+00:00",
+    "sha256": "3c856e6d5e3a84a1aa892366c0e5dcede6de60718906fb59f735f95ae175a298"
+  },
+  {
+    "entidade": "Climatic Research Unit, University of East Anglia",
+    "conjunto": "CRU-CY PRT pre",
+    "url": "https://crudata.uea.ac.uk/cru/data/hrg/cru_ts_4.10/crucy.2606161920.v4.10/countries/pre/crucy.v4.10.1901.2025.Portugal.pre.per",
+    "versao": "4.10; 1901-2025",
+    "ficheiro_original": "fontes_originais/CRU/PRT_pre.per",
+    "recolhido_utc": "2026-10-17T23:51:11.956893+00:00",
+    "sha256": "392ec1cb29ec1d4a03577c1508ade401ebb5303df25667ff03f6d2176bb58f3e"
+  },
+  {
+    "entidade": "Climatic Research Unit, University of East Anglia",
+    "conjunto": "CRU-CY ZAF pre",
+    "url": "https://crudata.uea.ac.uk/cru/data/hrg/cru_ts_4.10/crucy.2606161920.v4.10/countries/pre/crucy.v4.10.1901.2025.South_Africa.pre.per",
+    "versao": "4.10; 1901-2025",
+    "ficheiro_original": "fontes_originais/CRU/ZAF_pre.per",
+    "recolhido_utc": "2026-10-17T23:51:17.966006+00:00",
+    "sha256": "8a5f8336efcf85ef14ff9e3eff5e4f4177665f13d454462883d85c6d952e68fc"
+  },
+  {
+    "entidade": "Climatic Research Unit, University of East Anglia",
+    "conjunto": "CRU-CY JPN pre",
+    "url": "https://crudata.uea.ac.uk/cru/data/hrg/cru_ts_4.10/crucy.2606161920.v4.10/countries/pre/crucy.v4.10.1901.2025.Japan.pre.per",
+    "versao": "4.10; 1901-2025",
+    "ficheiro_original": "fontes_originais/CRU/JPN_pre.per",
+    "recolhido_utc": "2026-10-17T23:51:18.130341+00:00",
+    "sha256": "65b13a8c43bad790116ac2e0ac1319703de36fe437db9f10438085b7045b4779"
+  },
+  {
+    "entidade": "Climatic Research Unit, University of East Anglia",
+    "conjunto": "CRU-CY MEX pre",
+    "url": "https://crudata.uea.ac.uk/cru/data/hrg/cru_ts_4.10/crucy.2606161920.v4.10/countries/pre/crucy.v4.10.1901.2025.Mexico.pre.per",
+    "versao": "4.10; 1901-2025",
+    "ficheiro_original": "fontes_originais/CRU/MEX_pre.per",
+    "recolhido_utc": "2026-10-17T23:51:18.137916+00:00",
+    "sha256": "ac000733223213c213041f3d3c0a3db9324f89ff685621c9d42c563fafeaaedf"
+  },
+  {
+    "entidade": "Climatic Research Unit, University of East Anglia",
+    "conjunto": "CRU-CY BRA pre",
+    "url": "https://crudata.uea.ac.uk/cru/data/hrg/cru_ts_4.10/crucy.2606161920.v4.10/countries/pre/crucy.v4.10.1901.2025.Brazil.pre.per",
+    "versao": "4.10; 1901-2025",
+    "ficheiro_original": "fontes_originais/CRU/BRA_pre.per",
+    "recolhido_utc": "2026-10-17T23:51:18.166962+00:00",
+    "sha256": "d7de853c2912b8eef522ca93c70c9d57d10d05e868da13fdfc90e5894f451efd"
+  },
+  {
+    "entidade": "Climatic Research Unit, University of East Anglia",
+    "conjunto": "CRU-CY THA pre",
+    "url": "https://crudata.uea.ac.uk/cru/data/hrg/cru_ts_4.10/crucy.2606161920.v4.10/countries/pre/crucy.v4.10.1901.2025.Thailand.pre.per",
+    "versao": "4.10; 1901-2025",
+    "ficheiro_original": "fontes_originais/CRU/THA_pre.per",
+    "recolhido_utc": "2026-10-17T23:51:18.214576+00:00",
+    "sha256": "5027b60224c26b5ec24210f92c70c2937da3f552372bfb9dc8d7c64e634d3fb6"
+  },
+  {
+    "entidade": "Climatic Research Unit, University of East Anglia",
+    "conjunto": "CRU-CY ESP pet",
+    "url": "https://crudata.uea.ac.uk/cru/data/hrg/cru_ts_4.10/crucy.2606161920.v4.10/countries/pet/crucy.v4.10.1901.2025.Spain.pet.per",
+    "versao": "4.10; 1901-2025",
+    "ficheiro_original": "fontes_originais/CRU/ESP_pet.per",
+    "recolhido_utc": "2026-10-17T23:51:31.419647+00:00",
+    "sha256": "e3851b7d2ce6206baa8821a76ab4b99cce614d136c9146247fce6314af861901"
+  },
+  {
+    "entidade": "Climatic Research Unit, University of East Anglia",
+    "conjunto": "CRU-CY PRT pet",
+    "url": "https://crudata.uea.ac.uk/cru/data/hrg/cru_ts_4.10/crucy.2606161920.v4.10/countries/pet/crucy.v4.10.1901.2025.Portugal.pet.per",
+    "versao": "4.10; 1901-2025",
+    "ficheiro_original": "fontes_originais/CRU/PRT_pet.per",
+    "recolhido_utc": "2026-10-17T23:51:31.428119+00:00",
+    "sha256": "3f73a6709cb81e763b3d3b526f5730bd64e72ea376f9b062d85227a87dee516a"
+  },
+  {
+    "entidade": "Climatic Research Unit, University of East Anglia",
+    "conjunto": "CRU-CY JPN pet",
+    "url": "https://crudata.uea.ac.uk/cru/data/hrg/cru_ts_4.10/crucy.2606161920.v4.10/countries/pet/crucy.v4.10.1901.2025.Japan.pet.per",
+    "versao": "4.10; 1901-2025",
+    "ficheiro_original": "fontes_originais/CRU/JPN_pet.per",
+    "recolhido_utc": "2026-10-17T23:51:31.475806+00:00",
+    "sha256": "429c2ac014caf1bdb8fcb847d4c43031243aae86a8df112476cdc4569db966bd"
+  },
+  {
+    "entidade": "Climatic Research Unit, University of East Anglia",
+    "conjunto": "CRU-CY MEX pet",
+    "url": "https://crudata.uea.ac.uk/cru/data/hrg/cru_ts_4.10/crucy.2606161920.v4.10/countries/pet/crucy.v4.10.1901.2025.Mexico.pet.per",
+    "versao": "4.10; 1901-2025",
+    "ficheiro_original": "fontes_originais/CRU/MEX_pet.per",
+    "recolhido_utc": "2026-10-17T23:51:37.593158+00:00",
+    "sha256": "1f1c9577bfb515d94b39afb8f291871dccbbbefb88aa1c1c5872dd39818f0935"
+  },
+  {
+    "entidade": "Climatic Research Unit, University of East Anglia",
+    "conjunto": "CRU-CY ZAF pet",
+    "url": "https://crudata.uea.ac.uk/cru/data/hrg/cru_ts_4.10/crucy.2606161920.v4.10/countries/pet/crucy.v4.10.1901.2025.South_Africa.pet.per",
+    "versao": "4.10; 1901-2025",
+    "ficheiro_original": "fontes_originais/CRU/ZAF_pet.per",
+    "recolhido_utc": "2026-10-17T23:51:37.602766+00:00",
+    "sha256": "50e2c04751c6a77be90635921739aad4aef9ee32503c595100ebeaf202eff2da"
+  },
+  {
+    "entidade": "Climatic Research Unit, University of East Anglia",
+    "conjunto": "CRU-CY BRA pet",
+    "url": "https://crudata.uea.ac.uk/cru/data/hrg/cru_ts_4.10/crucy.2606161920.v4.10/countries/pet/crucy.v4.10.1901.2025.Brazil.pet.per",
+    "versao": "4.10; 1901-2025",
+    "ficheiro_original": "fontes_originais/CRU/BRA_pet.per",
+    "recolhido_utc": "2026-10-17T23:51:37.773393+00:00",
+    "sha256": "905f0e25b7e20493db5d6731335221da64f5903868cfa1f15f4ed0c88700210c"
+  },
+  {
+    "entidade": "Climatic Research Unit, University of East Anglia",
+    "conjunto": "CRU-CY THA pet",
+    "url": "https://crudata.uea.ac.uk/cru/data/hrg/cru_ts_4.10/crucy.2606161920.v4.10/countries/pet/crucy.v4.10.1901.2025.Thailand.pet.per",
+    "versao": "4.10; 1901-2025",
+    "ficheiro_original": "fontes_originais/CRU/THA_pet.per",
+    "recolhido_utc": "2026-10-17T23:51:37.803329+00:00",
+    "sha256": "761f81a93c9265e5c5ed2cb417dc36f9cb7ab23867cb1f1b03d8b6fa2a3e9bc9"
+  },
+  {
+    "entidade": "Climatic Research Unit, University of East Anglia",
+    "conjunto": "CRU-CY BDI tmp",
+    "url": "https://crudata.uea.ac.uk/cru/data/hrg/cru_ts_4.10/crucy.2606161920.v4.10/countries/tmp/crucy.v4.10.1901.2025.Burundi.tmp.per",
+    "versao": "4.10; 1901-2025",
+    "ficheiro_original": "fontes_originais/CRU/BDI_tmp.per",
+    "recolhido_utc": "2026-10-17T23:52:44.337587+00:00",
+    "sha256": "2901a447a279d670ba7c352f86fe9d2d8dc3dfb00740f47a779066b5037808e9"
+  },
+  {
+    "entidade": "Climatic Research Unit, University of East Anglia",
+    "conjunto": "CRU-CY BFA tmp",
+    "url": "https://crudata.uea.ac.uk/cru/data/hrg/cru_ts_4.10/crucy.2606161920.v4.10/countries/tmp/crucy.v4.10.1901.2025.Burkina_Faso.tmp.per",
+    "versao": "4.10; 1901-2025",
+    "ficheiro_original": "fontes_originais/CRU/BFA_tmp.per",
+    "recolhido_utc": "2026-10-17T23:52:44.513725+00:00",
+    "sha256": "aebf9d84a0a976ce0dc76822e9703546de4bc581939e6d86494b4d28558b2c70"
+  },
+  {
+    "entidade": "Climatic Research Unit, University of East Anglia",
+    "conjunto": "CRU-CY BEN tmp",
+    "url": "https://crudata.uea.ac.uk/cru/data/hrg/cru_ts_4.10/crucy.2606161920.v4.10/countries/tmp/crucy.v4.10.1901.2025.Benin.tmp.per",
+    "versao": "4.10; 1901-2025",
+    "ficheiro_original": "fontes_originais/CRU/BEN_tmp.per",
+    "recolhido_utc": "2026-10-17T23:52:44.543288+00:00",
+    "sha256": "2e3777ece2ac64faf1f4760ec687d25339ddc7c66008f1f9a1b2814d5e12c086"
+  },
+  {
+    "entidade": "Climatic Research Unit, University of East Anglia",
+    "conjunto": "CRU-CY HND tmp",
+    "url": "https://crudata.uea.ac.uk/cru/data/hrg/cru_ts_4.10/crucy.2606161920.v4.10/countries/tmp/crucy.v4.10.1901.2025.Honduras.tmp.per",
+    "versao": "4.10; 1901-2025",
+    "ficheiro_original": "fontes_originais/CRU/HND_tmp.per",
+    "recolhido_utc": "2026-10-17T23:52:44.672884+00:00",
+    "sha256": "1667edbb2cf06d35a0adaae8199c7363f5033ca89ea8258275ede364cb333f91"
+  },
+  {
+    "entidade": "Climatic Research Unit, University of East Anglia",
+    "conjunto": "CRU-CY MLI tmp",
+    "url": "https://crudata.uea.ac.uk/cru/data/hrg/cru_ts_4.10/crucy.2606161920.v4.10/countries/tmp/crucy.v4.10.1901.2025.Mali.tmp.per",
+    "versao": "4.10; 1901-2025",
+    "ficheiro_original": "fontes_originais/CRU/MLI_tmp.per",
+    "recolhido_utc": "2026-10-17T23:52:44.704349+00:00",
+    "sha256": "5461461897e31d4eb366bed24a488574a6453c7371d3848cabe07a21865c5a34"
+  },
+  {
+    "entidade": "Climatic Research Unit, University of East Anglia",
+    "conjunto": "CRU-CY NER tmp",
+    "url": "https://crudata.uea.ac.uk/cru/data/hrg/cru_ts_4.10/crucy.2606161920.v4.10/countries/tmp/crucy.v4.10.1901.2025.Niger.tmp.per",
+    "versao": "4.10; 1901-2025",
+    "ficheiro_original": "fontes_originais/CRU/NER_tmp.per",
+    "recolhido_utc": "2026-10-17T23:52:44.898532+00:00",
+    "sha256": "e9d57ab19641611ea11ea94c02aa7e31b64db154795540d5c2983c585abd57ca"
+  },
+  {
+    "entidade": "Climatic Research Unit, University of East Anglia",
+    "conjunto": "CRU-CY BFA pre",
+    "url": "https://crudata.uea.ac.uk/cru/data/hrg/cru_ts_4.10/crucy.2606161920.v4.10/countries/pre/crucy.v4.10.1901.2025.Burkina_Faso.pre.per",
+    "versao": "4.10; 1901-2025",
+    "ficheiro_original": "fontes_originais/CRU/BFA_pre.per",
+    "recolhido_utc": "2026-10-17T23:52:50.547488+00:00",
+    "sha256": "3253feec9d7fe4c2be8757a0956ea268d55baeb6c8fbd5d33ac1dfb015048a80"
+  },
+  {
+    "entidade": "Climatic Research Unit, University of East Anglia",
+    "conjunto": "CRU-CY SEN tmp",
+    "url": "https://crudata.uea.ac.uk/cru/data/hrg/cru_ts_4.10/crucy.2606161920.v4.10/countries/tmp/crucy.v4.10.1901.2025.Senegal.tmp.per",
+    "versao": "4.10; 1901-2025",
+    "ficheiro_original": "fontes_originais/CRU/SEN_tmp.per",
+    "recolhido_utc": "2026-10-17T23:52:50.552346+00:00",
+    "sha256": "87d17ebdc3399631da8d16bf96606b7d24d948181d46896ea121c4465d7f6365"
+  },
+  {
+    "entidade": "Climatic Research Unit, University of East Anglia",
+    "conjunto": "CRU-CY BDI pre",
+    "url": "https://crudata.uea.ac.uk/cru/data/hrg/cru_ts_4.10/crucy.2606161920.v4.10/countries/pre/crucy.v4.10.1901.2025.Burundi.pre.per",
+    "versao": "4.10; 1901-2025",
+    "ficheiro_original": "fontes_originais/CRU/BDI_pre.per",
+    "recolhido_utc": "2026-10-17T23:52:50.733282+00:00",
+    "sha256": "20cd170a1a1da7b03a224e747545bb389db5717d064e95e63c1510a6d81191e7"
+  },
+  {
+    "entidade": "Climatic Research Unit, University of East Anglia",
+    "conjunto": "CRU-CY NGA tmp",
+    "url": "https://crudata.uea.ac.uk/cru/data/hrg/cru_ts_4.10/crucy.2606161920.v4.10/countries/tmp/crucy.v4.10.1901.2025.Nigeria.tmp.per",
+    "versao": "4.10; 1901-2025",
+    "ficheiro_original": "fontes_originais/CRU/NGA_tmp.per",
+    "recolhido_utc": "2026-10-17T23:52:50.736966+00:00",
+    "sha256": "062a32f46be75a3bcd6e79b7997a24df9454b368fcc03da542962182f87151ce"
+  },
+  {
+    "entidade": "Climatic Research Unit, University of East Anglia",
+    "conjunto": "CRU-CY NER pre",
+    "url": "https://crudata.uea.ac.uk/cru/data/hrg/cru_ts_4.10/crucy.2606161920.v4.10/countries/pre/crucy.v4.10.1901.2025.Niger.pre.per",
+    "versao": "4.10; 1901-2025",
+    "ficheiro_original": "fontes_originais/CRU/NER_pre.per",
+    "recolhido_utc": "2026-10-17T23:52:50.748986+00:00",
+    "sha256": "ef6d9bc9ff9fc8ce657a3fbe71f7e71fc396f2633f5174a17e398240c4e65a22"
+  },
+  {
+    "entidade": "Climatic Research Unit, University of East Anglia",
+    "conjunto": "CRU-CY MLI pre",
+    "url": "https://crudata.uea.ac.uk/cru/data/hrg/cru_ts_4.10/crucy.2606161920.v4.10/countries/pre/crucy.v4.10.1901.2025.Mali.pre.per",
+    "versao": "4.10; 1901-2025",
+    "ficheiro_original": "fontes_originais/CRU/MLI_pre.per",
+    "recolhido_utc": "2026-10-17T23:52:50.830707+00:00",
+    "sha256": "fff7d791401af33504d587fbedb95335e8add6ffd5a3f4fee6056f241d85babb"
+  },
+  {
+    "entidade": "Climatic Research Unit, University of East Anglia",
+    "conjunto": "CRU-CY SEN pre",
+    "url": "https://crudata.uea.ac.uk/cru/data/hrg/cru_ts_4.10/crucy.2606161920.v4.10/countries/pre/crucy.v4.10.1901.2025.Senegal.pre.per",
+    "versao": "4.10; 1901-2025",
+    "ficheiro_original": "fontes_originais/CRU/SEN_pre.per",
+    "recolhido_utc": "2026-10-17T23:52:55.522416+00:00",
+    "sha256": "f18631b6c30fcc4c4a0957c141d9ce4063e2f25983b4318cc040c7fdcd97d6df"
+  },
+  {
+    "entidade": "Climatic Research Unit, University of East Anglia",
+    "conjunto": "CRU-CY HND pre",
+    "url": "https://crudata.uea.ac.uk/cru/data/hrg/cru_ts_4.10/crucy.2606161920.v4.10/countries/pre/crucy.v4.10.1901.2025.Honduras.pre.per",
+    "versao": "4.10; 1901-2025",
+    "ficheiro_original": "fontes_originais/CRU/HND_pre.per",
+    "recolhido_utc": "2026-10-17T23:52:55.681437+00:00",
+    "sha256": "74bee1e381b23097926275fc168e1f7847c58ac5b9f1858c66e24155103d16cf"
+  },
+  {
+    "entidade": "Climatic Research Unit, University of East Anglia",
+    "conjunto": "CRU-CY NGA pre",
+    "url": "https://crudata.uea.ac.uk/cru/data/hrg/cru_ts_4.10/crucy.2606161920.v4.10/countries/pre/crucy.v4.10.1901.2025.Nigeria.pre.per",
+    "versao": "4.10; 1901-2025",
+    "ficheiro_original": "fontes_originais/CRU/NGA_pre.per",
+    "recolhido_utc": "2026-10-17T23:52:55.690875+00:00",
+    "sha256": "066a4e069583f6ae347baded777dec10d480c289ab63a4589c9f9f79ba6918c3"
+  },
+  {
+    "entidade": "Climatic Research Unit, University of East Anglia",
+    "conjunto": "CRU-CY BEN pre",
+    "url": "https://crudata.uea.ac.uk/cru/data/hrg/cru_ts_4.10/crucy.2606161920.v4.10/countries/pre/crucy.v4.10.1901.2025.Benin.pre.per",
+    "versao": "4.10; 1901-2025",
+    "ficheiro_original": "fontes_originais/CRU/BEN_pre.per",
+    "recolhido_utc": "2026-10-17T23:52:55.725453+00:00",
+    "sha256": "ef12656e74031fd8827db5edfa2d58552078d3e18c1a4eaeb198b7ceb7123a3a"
+  },
+  {
+    "entidade": "Climatic Research Unit, University of East Anglia",
+    "conjunto": "CRU-CY BFA pet",
+    "url": "https://crudata.uea.ac.uk/cru/data/hrg/cru_ts_4.10/crucy.2606161920.v4.10/countries/pet/crucy.v4.10.1901.2025.Burkina_Faso.pet.per",
+    "versao": "4.10; 1901-2025",
+    "ficheiro_original": "fontes_originais/CRU/BFA_pet.per",
+    "recolhido_utc": "2026-10-17T23:52:55.847920+00:00",
+    "sha256": "1e313a454f56349ed605635029e00943568d1e723ddba8a7a850cc67fcd94519"
+  },
+  {
+    "entidade": "Climatic Research Unit, University of East Anglia",
+    "conjunto": "CRU-CY BDI pet",
+    "url": "https://crudata.uea.ac.uk/cru/data/hrg/cru_ts_4.10/crucy.2606161920.v4.10/countries/pet/crucy.v4.10.1901.2025.Burundi.pet.per",
+    "versao": "4.10; 1901-2025",
+    "ficheiro_original": "fontes_originais/CRU/BDI_pet.per",
+    "recolhido_utc": "2026-10-17T23:52:55.921505+00:00",
+    "sha256": "8de1ad6ec195bf1e6aa8b69df940403a360596becdf2ca338fedd8932fe2b46c"
+  },
+  {
+    "entidade": "Climatic Research Unit, University of East Anglia",
+    "conjunto": "CRU-CY SEN pet",
+    "url": "https://crudata.uea.ac.uk/cru/data/hrg/cru_ts_4.10/crucy.2606161920.v4.10/countries/pet/crucy.v4.10.1901.2025.Senegal.pet.per",
+    "versao": "4.10; 1901-2025",
+    "ficheiro_original": "fontes_originais/CRU/SEN_pet.per",
+    "recolhido_utc": "2026-10-17T23:53:01.894878+00:00",
+    "sha256": "209096bef91084012623f8bf7968d4c66f24a762e28d803fbee784864955df09"
+  },
+  {
+    "entidade": "Climatic Research Unit, University of East Anglia",
+    "conjunto": "CRU-CY MLI pet",
+    "url": "https://crudata.uea.ac.uk/cru/data/hrg/cru_ts_4.10/crucy.2606161920.v4.10/countries/pet/crucy.v4.10.1901.2025.Mali.pet.per",
+    "versao": "4.10; 1901-2025",
+    "ficheiro_original": "fontes_originais/CRU/MLI_pet.per",
+    "recolhido_utc": "2026-10-17T23:53:01.903371+00:00",
+    "sha256": "637f756c3e7b1a54ddd01369b1c9e44accfc31fdc0d5439d4d90a0acc2b56ebe"
+  },
+  {
+    "entidade": "Climatic Research Unit, University of East Anglia",
+    "conjunto": "CRU-CY HND pet",
+    "url": "https://crudata.uea.ac.uk/cru/data/hrg/cru_ts_4.10/crucy.2606161920.v4.10/countries/pet/crucy.v4.10.1901.2025.Honduras.pet.per",
+    "versao": "4.10; 1901-2025",
+    "ficheiro_original": "fontes_originais/CRU/HND_pet.per",
+    "recolhido_utc": "2026-10-17T23:53:01.907025+00:00",
+    "sha256": "e9818ea9c7572966c333f2eef13b5dc9c09a1f29d314558c9a6baa5657cf81fe"
+  },
+  {
+    "entidade": "Climatic Research Unit, University of East Anglia",
+    "conjunto": "CRU-CY NGA pet",
+    "url": "https://crudata.uea.ac.uk/cru/data/hrg/cru_ts_4.10/crucy.2606161920.v4.10/countries/pet/crucy.v4.10.1901.2025.Nigeria.pet.per",
+    "versao": "4.10; 1901-2025",
+    "ficheiro_original": "fontes_originais/CRU/NGA_pet.per",
+    "recolhido_utc": "2026-10-17T23:53:02.041919+00:00",
+    "sha256": "bda1f39497df813e0c53b813203f302a655f432eec5d99fad6915e0d07ac3bd8"
+  },
+  {
+    "entidade": "Climatic Research Unit, University of East Anglia",
+    "conjunto": "CRU-CY BEN pet",
+    "url": "https://crudata.uea.ac.uk/cru/data/hrg/cru_ts_4.10/crucy.2606161920.v4.10/countries/pet/crucy.v4.10.1901.2025.Benin.pet.per",
+    "versao": "4.10; 1901-2025",
+    "ficheiro_original": "fontes_originais/CRU/BEN_pet.per",
+    "recolhido_utc": "2026-10-17T23:53:02.230581+00:00",
+    "sha256": "86526b18804929b95d614a760b8fa3e69b99bec7fbd5ede583dcc31b7a990055"
+  },
+  {
+    "entidade": "Climatic Research Unit, University of East Anglia",
+    "conjunto": "CRU-CY NER pet",
+    "url": "https://crudata.uea.ac.uk/cru/data/hrg/cru_ts_4.10/crucy.2606161920.v4.10/countries/pet/crucy.v4.10.1901.2025.Niger.pet.per",
+    "versao": "4.10; 1901-2025",
+    "ficheiro_original": "fontes_originais/CRU/NER_pet.per",
+    "recolhido_utc": "2026-10-17T23:53:02.257101+00:00",
+    "sha256": "2430972bac059aee78864cc7f7d908d3c8fdd5ce43b6b13845726540a06351d4"
+  },
+  {
+    "entidade": "Banco Mundial",
+    "conjunto": "NY.GDP.PCAP.PP.KD",
+    "url": "https://api.worldbank.org/v2/country/PRT;ESP;USA;JPN;BRA;MEX;ZAF;THA;IND;MAR;KEN;NPL;UGA;RWA;MOZ;MDG;BDI;BFA;MLI;NER;BEN;HND;NGA;SEN/indicator/NY.GDP.PCAP.PP.KD?format=json&per_page=20000",
+    "versao": "WDI; última atualização 2026-10-08",
+    "ficheiro_original": "fontes_originais/WDI/gdp_ppp.json",
+    "recolhido_utc": "2026-10-17T23:53:33.364856+00:00",
+    "sha256": "826a05e72ea750579f06941c5f034fd8935194a425d637b783fc13621c8699d1"
+  },
+  {
+    "entidade": "Banco Mundial",
+    "conjunto": "NV.AGR.TOTL.ZS",
+    "url": "https://api.worldbank.org/v2/country/PRT;ESP;USA;JPN;BRA;MEX;ZAF;THA;IND;MAR;KEN;NPL;UGA;RWA;MOZ;MDG/indicator/NV.AGR.TOTL.ZS?format=json&per_page=20000",
+    "versao": "WDI; última atualização 2026-10-08",
+    "ficheiro_original": "fontes_originais/WDI/agricultura_inicial.json",
+    "recolhido_utc": "2026-10-17T23:51:50.448696+00:00",
+    "sha256": "ccc156eb57a26770db7f786ca4cb92148c3586397681f850fb8ad7733e5a8231"
+  },
+  {
+    "entidade": "Banco Mundial",
+    "conjunto": "NV.AGR.TOTL.ZS",
+    "url": "https://api.worldbank.org/v2/country/BDI;BFA;MLI;NER;BEN;HND;NGA;SEN/indicator/NV.AGR.TOTL.ZS?format=json&per_page=20000",
+    "versao": "WDI; última atualização 2026-10-08",
+    "ficheiro_original": "fontes_originais/WDI/agricultura_alternativos.json",
+    "recolhido_utc": "2026-10-17T23:53:07.311197+00:00",
+    "sha256": "070ed1c0580c1d1f57cd76d9efe7c01a05c051a0e731383319a4607e5ced6760"
+  },
+  {
+    "entidade": "Banco Mundial",
+    "conjunto": "Grupos de rendimento",
+    "url": "https://api.worldbank.org/v2/country?format=json&per_page=400",
+    "versao": "Ano fiscal 2027; classificação atual",
+    "ficheiro_original": "fontes_originais/WDI/paises_classificacao.json",
+    "recolhido_utc": "2026-10-17T23:51:49.636539+00:00",
+    "sha256": "c9acf3932785191a649cbc04c3056af4cf64a236e5c3b49d49be25ddb0440bce"
+  }
+]

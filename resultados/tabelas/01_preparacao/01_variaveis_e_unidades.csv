@@ -1,0 +1,8 @@
+﻿Variável,Coluna,Unidade
+Inflação alimentar,inflacao_alimentar_log_pct,100 × Δ ln IPC; aprox. %/mês
+Anomalia térmica,anomalia_temperatura_c,°C
+Défice hídrico de 3 meses,defice_hidrico_3m_z,desvios padrão
+Log PIB real por habitante (t−1),ln_pib_pc_ppc_ano_anterior,log natural
+Peso agrícola no PIB (t−1),peso_agricola_pct_ano_anterior,pontos percentuais do PIB
+Calor × log PIB,calor_x_ln_pib,°C × log PIB
+Calor × peso agrícola,calor_x_peso_agricola,°C × p.p. do PIB
